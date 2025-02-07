@@ -1,10 +1,11 @@
 package routers
 
 import (
-	"inos_project/controllers"
 	"github.com/astaxie/beego"
+	"inos_project/controllers/login"
 )
 
 func init() {
-    beego.Router("/", &controllers.MainController{})
+	beego.Router("/", &login.LoginController{})
+	beego.Router("/change_captcha", &login.LoginController{}, "get:ChangeCaptcha")
 }

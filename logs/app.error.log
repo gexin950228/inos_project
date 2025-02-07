@@ -1,0 +1,5 @@
+2025/02/06 16:46:42.980 [E] [template.go:176]  parse template err: login/login.html template: login/login.html:26: missing value for command
+2025/02/06 16:49:29.170 [E] [template.go:176]  parse template err: login/login.html template: login/login.html:41: function "captcha" not defined
+2025/02/06 16:49:53.830 [E] [template.go:176]  parse template err: login/login.html template: login/login.html:41: function "captcha" not defined
+2025/02/07 11:39:03.072 [E] [router.go:835]  <QuerySeter> no row found
+2025/02/07 11:39:49.913 [E] [router.go:835]  <QuerySeter> no row found

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>内部办公网-后台系统管理</title>
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/static/css/font.css">
+	<link rel="stylesheet" href="/static/css/xadmin.css">
+    <link rel="icon" href="/static/img/zlkt.ico" type="image/x-icon"/>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/static/lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/static/js/xadmin.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+</head>
+<body class="login-bg">
+    
+    <div class="login">
+        <div class="message">内部办公网-登录管理</div>
+        <div id="darkbannerwrap"></div>
+        
+        <form method="post" class="layui-form" >
+            <input id="username" name="username" placeholder="用户名"  type="text" lay-verify="required" class="layui-input">
+            <hr class="hr15">
+            <input id="password" name="password" lay-verify="required" placeholder="密码"  type="password" class="layui-input">
+            <hr class="hr15">
+            <div>
+                <input id="captcha" placeholder="验证码" type="text" class="layui-input" style="width: 180px;float: left">
+                <img id="captchaImg" style="cursor: pointer;width: 140px;height: 50px;float: right"/>
+                <input type="hidden" value="{{ .captcha.Id }}" id="captchaId">
+            </div>
+            <hr class="hr15">
+            <input value="登录" lay-submit lay-filter="login" style="width:100%;" type="button" id="loginBtn">
+            <hr class="hr20" >
+        </form>
+    </div>
+
+    <script>
+        let bs64 = {{ .captcha.Captcha }}
+        document.getElementById("captchaImg").setAttribute("src",bs64);
+        let  imgBtn = document.getElementById("captchaImg");
+        imgBtn.onclick = function () {
+            let imgId = document.getElementById("captchaImg");
+            imgId.onclick = function (ev) {
+                let ajax = $.ajax({
+                    url: "/change_captcha",
+                    type: "GET",
+                    data: {},
+                    success: function (data) {
+                        console.log(data);
+                        let code = data["Code"];
+                        let Id = data["id"];
+                        if (code === 0) {
+                            alert(data["msg"]);
+                        } else {
+                            imgId.setAttribute("src",data["Captcha"]);
+                            let captchaId = document.getElementById("captchaId");
+                            captchaId.setAttribute("value",Id);
+                        }
+                    },
+                    fail: function (data) {
+                        alert("fail")
+                    },
+                });
+            }
+
+
+        }
+        $(function  () {
+            layui.use('form', function(){
+              var form = layui.form;
+              // layer.msg('玩命卖萌中', function(){
+              //   //关闭后的操作
+              //   });
+              //监听提交
+              form.on('submit(login)', function(data){
+                let username = document.getElementById("username").value;
+                let password = document.getElementById("password").value;
+                let captchaId = document.getElementById("captchaId").value;
+                let captcha = document.getElementById("captcha").value;
+                console.log(username,password,captcha,captchaId);
+                $.ajax({
+                    url: "/",
+                    type: "POST",
+                    data: {
+                        "username": username,
+                        "password": password,
+                        "captchaId": captchaId,
+                        "captcha": captcha,
+                    },
+                    success: function (data) {
+                        alert(data["msg"]);
+                    },
+                    fail: function (data) {
+                        alert(data["msg"]);
+                    },
+                })
+              });
+            });
+        })
+    </script>
+    <!-- 底部结束 -->
+</body>
+</html>

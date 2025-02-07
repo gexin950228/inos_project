@@ -1,0 +1,22 @@
+2025/02/07 11:39:03.073 [C] [panic.go:785]  the request url is  /
+2025/02/07 11:39:03.073 [C] [panic.go:785]  Handler crashed with error can't find templatefile in the path:views/logincontroller/post.tpl
+2025/02/07 11:39:03.073 [C] [panic.go:785]  D:/go/src/runtime/panic.go:785
+2025/02/07 11:39:03.073 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/07 11:39:03.073 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/07 11:39:03.073 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/07 11:39:03.073 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/07 11:39:03.073 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/07 11:39:03.073 [C] [panic.go:785]  D:/go/src/net/http/server.go:3210
+2025/02/07 11:39:03.073 [C] [panic.go:785]  D:/go/src/net/http/server.go:2092
+2025/02/07 11:39:03.073 [C] [panic.go:785]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/07 11:39:49.914 [C] [panic.go:785]  the request url is  /
+2025/02/07 11:39:49.914 [C] [panic.go:785]  Handler crashed with error can't find templatefile in the path:views/logincontroller/post.tpl
+2025/02/07 11:39:49.914 [C] [panic.go:785]  D:/go/src/runtime/panic.go:785
+2025/02/07 11:39:49.914 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/07 11:39:49.914 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/07 11:39:49.914 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/07 11:39:49.914 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/07 11:39:49.914 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/07 11:39:49.914 [C] [panic.go:785]  D:/go/src/net/http/server.go:3210
+2025/02/07 11:39:49.914 [C] [panic.go:785]  D:/go/src/net/http/server.go:2092
+2025/02/07 11:39:49.914 [C] [panic.go:785]  D:/go/src/runtime/asm_amd64.s:1700

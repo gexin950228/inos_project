@@ -1,0 +1,381 @@
+2025/02/06 14:52:00.095 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 14:52:18.763 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 14:53:39.611 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 14:53:48.282 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 14:54:21.061 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0262ms|   match|[44m GET     [0m /     r:/
+2025/02/06 14:54:21.073 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.011ms|   match|[44m GET     [0m /static/css/xadmin.css
+2025/02/06 14:54:21.073 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.011ms|   match|[44m GET     [0m /static/css/font.css
+2025/02/06 14:54:21.075 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lib/layui/layui.js
+2025/02/06 14:54:21.075 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      522.7µs|   match|[44m GET     [0m /static/img/code.jpg
+2025/02/06 14:54:21.076 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      522.7µs|   match|[44m GET     [0m /static/js/xadmin.js
+2025/02/06 14:54:21.087 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/02/06 14:54:21.685 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/images/bg.png
+2025/02/06 14:54:21.685 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/images/aiwrap.png
+2025/02/06 14:54:21.820 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/img/zlkt.ico
+2025/02/06 14:55:44.306 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 14:55:47.350 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.7µs|   match|[44m GET     [0m /     r:/
+2025/02/06 14:55:47.369 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lib/layui/layui.js
+2025/02/06 14:55:47.370 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      528.5µs|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/02/06 14:55:47.899 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/images/bg.png
+2025/02/06 14:55:47.899 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/images/aiwrap.png
+2025/02/06 14:58:00.983 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 14:58:02.465 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.4µs|   match|[44m GET     [0m /     r:/
+2025/02/06 14:58:02.479 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lib/layui/layui.js
+2025/02/06 14:58:02.991 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      506.5µs|   match|[44m GET     [0m /static/images/bg.png
+2025/02/06 14:58:02.991 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      506.5µs|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/02/06 15:30:42.256 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 15:30:42.905 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:04:23.285 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:04:24.331 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:04:36.293 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    30.1957ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:04:36.322 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lib/layui/layui.js
+2025/02/06 16:04:56.122 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    31.2809ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:04:56.135 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lib/layui/layui.js
+2025/02/06 16:36:14.440 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:36:15.121 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:36:16.530 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.4935ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:36:16.546 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lib/layui/layui.js
+2025/02/06 16:36:56.754 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:36:58.395 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    29.1538ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:36:58.407 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lib/layui/layui.js
+2025/02/06 16:40:27.864 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:40:28.911 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:46:42.980 [E] [template.go:176]  parse template err: login/login.html template: login/login.html:26: missing value for command
+2025/02/06 16:46:42.980 [W] [beego.go:103]  template: login/login.html:26: missing value for command
+2025/02/06 16:46:55.917 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:47:09.445 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:47:11.726 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.6018ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:47:11.737 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lib/layui/layui.js
+2025/02/06 16:47:13.874 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    26.7912ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:47:13.884 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lib/layui/layui.js
+2025/02/06 16:47:30.098 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    32.5254ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:47:30.111 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lib/layui/layui.js
+2025/02/06 16:49:29.170 [E] [template.go:176]  parse template err: login/login.html template: login/login.html:41: function "captcha" not defined
+2025/02/06 16:49:29.170 [W] [beego.go:103]  template: login/login.html:41: function "captcha" not defined
+2025/02/06 16:49:53.830 [E] [template.go:176]  parse template err: login/login.html template: login/login.html:41: function "captcha" not defined
+2025/02/06 16:49:53.830 [W] [beego.go:103]  template: login/login.html:41: function "captcha" not defined
+2025/02/06 16:50:29.258 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:50:59.973 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:51:22.721 [D] [server.go:3210]  | 10.161.252.112|[42m 200 [0m|    25.5304ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:51:29.430 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:51:52.882 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:52:05.929 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:52:28.836 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:52:30.557 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.9036ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:52:30.590 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lib/layui/layui.js
+2025/02/06 16:52:34.395 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    26.3263ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:52:34.407 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      530.1µs| nomatch|[44m GET     [0m /lib/layui/layui.js
+2025/02/06 16:52:57.669 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      611.3µs| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/02/06 16:52:57.669 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      611.3µs| nomatch|[44m GET     [0m //login.asp
+2025/02/06 16:52:57.669 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      611.3µs| nomatch|[44m GET     [0m /func/web_main/validate
+2025/02/06 16:52:57.669 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      611.3µs| nomatch|[44m GET     [0m /script/inc.js
+2025/02/06 16:52:57.669 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      611.3µs| nomatch|[44m GET     [0m /login.asp
+2025/02/06 16:52:57.696 [D] [server.go:3210]  | 10.161.252.112|[42m 200 [0m|    27.4678ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:52:57.814 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/02/06 16:52:57.814 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/02/06 16:52:57.889 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/02/06 16:52:57.889 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/02/06 16:52:57.889 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/02/06 16:52:57.962 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/02/06 16:52:58.023 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/02/06 16:52:58.023 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/02/06 16:52:58.220 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/02/06 16:52:58.220 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/02/06 16:52:58.272 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/02/06 16:52:58.427 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/02/06 16:53:06.859 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    23.9043ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:53:06.873 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lib/layui/layui.js
+2025/02/06 16:53:07.412 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:54:20.021 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    30.9742ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:54:20.037 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lib/layui/layui.js
+2025/02/06 16:54:24.029 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    26.9238ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:54:24.038 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lib/layui/layui.js
+2025/02/06 16:55:08.469 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:55:15.298 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.7184ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:55:15.309 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/02/06 16:55:15.823 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/02/06 16:55:15.845 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/02/06 16:55:15.854 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      520.5µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/02/06 16:55:15.864 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      526.2µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/02/06 16:57:19.714 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:57:20.898 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    26.8164ms|   match|[44m GET     [0m /     r:/
+2025/02/06 16:57:32.781 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 16:57:33.688 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.4099ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:02:22.775 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:04:58.702 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:07:46.123 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:07:59.572 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:11:36.620 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:11:50.045 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:12:22.564 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:18:07.605 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:18:09.762 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.3755ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:18:09.773 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      522.1µs|   match|[44m GET     [0m /static/css/font.css
+2025/02/06 17:18:09.773 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      522.1µs|   match|[44m GET     [0m /static/css/xadmin.css
+2025/02/06 17:18:09.773 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/jquery.min.js
+2025/02/06 17:18:09.774 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      534.9µs|   match|[44m GET     [0m /static/js/xadmin.js
+2025/02/06 17:18:09.781 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/02/06 17:18:10.361 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/02/06 17:18:10.361 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      507.6µs|   match|[44m GET     [0m /static/images/bg.png
+2025/02/06 17:18:10.409 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/img/zlkt.ico
+2025/02/06 17:18:14.523 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    25.2032ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:18:17.024 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    23.2822ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:19:42.498 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:20:18.568 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:20:19.209 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.4284ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:20:44.448 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     27.118ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:20:44.981 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:20:47.487 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.4979ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:21:44.750 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:21:46.799 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.0599ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:21:49.508 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    24.8685ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:21:50.560 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    23.2272ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:22:12.220 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    26.7168ms|   match|[44m GET     [0m /refreshCaptcha   r:/refreshCaptcha
+2025/02/06 17:22:43.644 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    24.1075ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:22:46.364 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    23.7959ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:22:46.524 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    23.0197ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:22:46.734 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    23.3349ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:23:06.273 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:23:10.017 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.5568ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:23:12.800 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     23.549ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:23:31.456 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    34.3703ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:26:59.483 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    26.7525ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:27:04.599 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.7591ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:27:42.606 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:28:58.092 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:28:59.526 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.4864ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:29:02.870 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    23.0374ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:31:40.086 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:31:45.494 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.0539ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:31:49.604 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    25.6741ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:31:55.763 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    25.5074ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:33:06.998 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    25.4983ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/06 17:33:38.462 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.8272ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:33:45.173 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    26.8632ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:35:31.240 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    30.8937ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:35:31.253 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    31.6076ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:35:31.265 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2025/02/06 17:35:31.266 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.2µs|   match|[44m GET     [0m /static/css/xadmin.css
+2025/02/06 17:35:31.269 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      507.9µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/02/06 17:35:31.269 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/xadmin.js
+2025/02/06 17:35:31.269 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/jquery.min.js
+2025/02/06 17:35:31.271 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/02/06 17:35:31.892 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/bg.png
+2025/02/06 17:35:31.892 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/02/06 17:35:31.902 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/02/06 17:35:31.905 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/02/06 17:35:31.908 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/02/06 17:35:31.910 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/02/06 17:35:31.914 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/img/zlkt.ico
+2025/02/06 17:35:34.174 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    24.6504ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:35:37.749 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.1416ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:35:46.050 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    30.3362ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:36:06.106 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     25.342ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:36:07.546 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    23.8213ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/06 17:38:50.855 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:38:51.907 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:40:50.135 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:40:54.158 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    26.1043ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:41:04.168 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.2769ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/06 17:41:04.173 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /undefined
+2025/02/06 17:41:32.678 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:41:33.880 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.8065ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:41:36.849 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    24.1327ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/06 17:41:36.852 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /undefined
+2025/02/06 17:41:46.843 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    33.5488ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:42:34.958 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:42:36.108 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:42:38.001 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    33.1254ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:42:41.721 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    30.5526ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/06 17:42:41.725 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      542.9µs| nomatch|[44m GET     [0m /undefined
+2025/02/06 17:43:35.705 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.1694ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:43:36.266 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:43:39.669 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     25.536ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/06 17:43:59.068 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:43:59.759 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.3749ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:44:03.448 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     25.209ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/06 17:44:34.711 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/06 17:44:36.459 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|         28ms|   match|[44m GET     [0m /     r:/
+2025/02/06 17:44:39.281 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    24.9925ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/06 17:44:40.002 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    26.2645ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 09:19:01.114 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 09:19:02.350 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 09:21:03.996 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.9614ms|   match|[44m GET     [0m /     r:/
+2025/02/07 09:21:04.022 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2025/02/07 09:21:04.022 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      509.8µs|   match|[44m GET     [0m /static/css/xadmin.css
+2025/02/07 09:21:04.023 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      519.8µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/02/07 09:21:04.023 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.0505ms|   match|[44m GET     [0m /static/js/xadmin.js
+2025/02/07 09:21:04.029 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.0396ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/02/07 09:21:04.712 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      505.6µs|   match|[44m GET     [0m /static/images/bg.png
+2025/02/07 09:21:04.712 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.0287ms|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/02/07 09:21:04.719 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      313.3µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/02/07 09:21:04.799 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|        506µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/02/07 09:21:04.806 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/02/07 09:21:04.807 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      520.3µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/02/07 09:21:04.851 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      711.6µs|   match|[44m GET     [0m /static/img/zlkt.ico
+2025/02/07 09:21:04.858 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2025/02/07 09:21:13.791 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.8599ms|   match|[44m GET     [0m /     r:/
+2025/02/07 09:21:16.371 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    23.3606ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 09:21:17.884 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    23.9755ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 09:21:28.138 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    24.3468ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 09:22:24.159 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 09:22:25.614 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    25.8891ms|   match|[44m GET     [0m /     r:/
+2025/02/07 09:25:57.335 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 09:26:40.642 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 09:30:16.914 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 09:30:42.241 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 09:31:21.452 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 09:31:23.738 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.9961ms|   match|[44m GET     [0m /     r:/
+2025/02/07 09:31:27.600 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    23.3218ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 09:31:29.261 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    24.4412ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 09:31:30.346 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.1985ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 09:31:31.633 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    24.2275ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 09:33:33.587 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 09:36:32.045 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 09:38:23.550 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 09:39:24.389 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 09:45:41.445 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 10:02:08.559 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 10:02:25.403 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 10:22:30.556 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    29.2689ms|   match|[44m GET     [0m /     r:/
+2025/02/07 10:23:02.788 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    25.2752ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 10:23:04.892 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    25.2271ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 10:23:09.242 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.1133ms|   match|[44m GET     [0m /     r:/
+2025/02/07 10:23:22.036 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    23.6276ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 10:23:24.377 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    24.2018ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 10:27:03.566 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 10:27:08.013 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.3464ms|   match|[44m GET     [0m /     r:/
+2025/02/07 10:27:19.703 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    29.2375ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 10:27:58.450 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 10:27:59.083 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.5599ms|   match|[44m GET     [0m /     r:/
+2025/02/07 10:28:06.371 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    25.0939ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 10:28:50.493 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 10:28:51.003 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.3377ms|   match|[44m GET     [0m /     r:/
+2025/02/07 10:28:57.961 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      23.05ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 10:29:09.087 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.0868ms|   match|[44m GET     [0m /     r:/
+2025/02/07 10:29:09.624 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 10:29:22.193 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    24.6642ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 10:29:46.138 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 10:29:52.482 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    26.6912ms|   match|[44m GET     [0m /     r:/
+2025/02/07 10:29:58.223 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    23.9488ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 10:30:02.103 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    23.4844ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 10:36:50.329 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 10:36:51.770 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.7361ms|   match|[44m GET     [0m /     r:/
+2025/02/07 10:37:17.848 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     24.987ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 10:40:25.726 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 10:40:33.004 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1105ms|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/icon.png
+2025/02/07 10:41:18.919 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:00:25.146 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:01:48.648 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:02:28.781 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:02:30.160 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.7048ms|   match|[44m GET     [0m /     r:/
+2025/02/07 11:02:48.834 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      477.5µs| nomatch|[44m GET     [0m /index.html
+2025/02/07 11:04:00.263 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:04:15.556 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:04:16.313 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.0122ms|   match|[44m GET     [0m /     r:/
+2025/02/07 11:06:04.003 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:06:43.215 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:07:18.648 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:07:20.262 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.3159ms|   match|[44m GET     [0m /     r:/
+2025/02/07 11:07:24.202 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    26.0021ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 11:08:28.114 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:10:10.943 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:10:34.252 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:14:45.111 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:15:56.861 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:15:57.754 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    24.1124ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 11:16:21.590 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    26.8452ms|   match|[44m GET     [0m /     r:/
+2025/02/07 11:16:33.462 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.2µs|   match|[46m POST    [0m /     r:/
+2025/02/07 11:18:01.034 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:19:57.242 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:19:57.496 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.8676ms|   match|[44m GET     [0m /     r:/
+2025/02/07 11:20:06.636 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0467ms|   match|[46m POST    [0m /     r:/
+2025/02/07 11:23:55.713 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:25:30.102 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:25:38.029 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:26:08.391 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:26:40.552 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:27:51.747 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:29:21.987 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:30:20.823 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:32:24.279 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:32:40.247 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0382ms|   match|[46m POST    [0m /     r:/
+2025/02/07 11:32:46.966 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.6µs|   match|[46m POST    [0m /     r:/
+2025/02/07 11:33:00.217 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2236ms|   match|[46m POST    [0m /     r:/
+2025/02/07 11:33:02.967 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:33:03.174 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1098ms|   match|[46m POST    [0m /     r:/
+2025/02/07 11:33:03.901 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.6µs|   match|[46m POST    [0m /     r:/
+2025/02/07 11:33:06.889 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.6832ms|   match|[44m GET     [0m /     r:/
+2025/02/07 11:33:17.373 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        906µs|   match|[46m POST    [0m /     r:/
+2025/02/07 11:37:53.684 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:38:23.258 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:38:42.791 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:38:47.512 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.6188ms|   match|[44m GET     [0m /     r:/
+2025/02/07 11:39:03.072 [E] [router.go:835]  <QuerySeter> no row found
+2025/02/07 11:39:03.073 [C] [panic.go:785]  the request url is  /
+2025/02/07 11:39:03.073 [C] [panic.go:785]  Handler crashed with error can't find templatefile in the path:views/logincontroller/post.tpl
+2025/02/07 11:39:03.073 [C] [panic.go:785]  D:/go/src/runtime/panic.go:785
+2025/02/07 11:39:03.073 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/07 11:39:03.073 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/07 11:39:03.073 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/07 11:39:03.073 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/07 11:39:03.073 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/07 11:39:03.073 [C] [panic.go:785]  D:/go/src/net/http/server.go:3210
+2025/02/07 11:39:03.073 [C] [panic.go:785]  D:/go/src/net/http/server.go:2092
+2025/02/07 11:39:03.073 [C] [panic.go:785]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/07 11:39:03.073 [server.go:3487]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/07 11:39:35.685 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:39:38.821 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     28.275ms|   match|[44m GET     [0m /     r:/
+2025/02/07 11:39:49.913 [E] [router.go:835]  <QuerySeter> no row found
+2025/02/07 11:39:49.914 [C] [panic.go:785]  the request url is  /
+2025/02/07 11:39:49.914 [C] [panic.go:785]  Handler crashed with error can't find templatefile in the path:views/logincontroller/post.tpl
+2025/02/07 11:39:49.914 [C] [panic.go:785]  D:/go/src/runtime/panic.go:785
+2025/02/07 11:39:49.914 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2025/02/07 11:39:49.914 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2025/02/07 11:39:49.914 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2025/02/07 11:39:49.914 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2025/02/07 11:39:49.914 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2025/02/07 11:39:49.914 [C] [panic.go:785]  D:/go/src/net/http/server.go:3210
+2025/02/07 11:39:49.914 [C] [panic.go:785]  D:/go/src/net/http/server.go:2092
+2025/02/07 11:39:49.914 [C] [panic.go:785]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/07 11:39:49.915 [server.go:3487]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/07 11:41:16.966 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.0596ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 11:41:20.527 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.3222ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 11:41:24.533 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7519ms|   match|[46m POST    [0m /     r:/
+2025/02/07 11:42:14.078 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 11:42:15.097 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 13:41:52.793 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 13:41:53.831 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 13:43:26.031 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 13:43:26.244 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    26.4141ms|   match|[44m GET     [0m /     r:/
+2025/02/07 13:43:26.263 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      681.9µs|   match|[44m GET     [0m /static/css/xadmin.css
+2025/02/07 13:43:26.263 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      681.9µs|   match|[44m GET     [0m /static/css/font.css
+2025/02/07 13:43:26.264 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      533.8µs|   match|[44m GET     [0m /static/js/xadmin.js
+2025/02/07 13:43:26.264 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      533.8µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/02/07 13:43:26.277 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/02/07 13:43:26.828 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      506.8µs|   match|[44m GET     [0m /static/images/bg.png
+2025/02/07 13:43:26.828 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      506.8µs|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/02/07 13:43:26.837 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/02/07 13:43:26.944 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/02/07 13:43:26.992 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/02/07 13:43:27.007 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/02/07 13:43:27.094 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/img/zlkt.ico
+2025/02/07 13:43:42.843 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.2167ms|   match|[46m POST    [0m /     r:/
+2025/02/07 13:44:05.750 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    34.5399ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 13:44:19.506 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0363ms|   match|[46m POST    [0m /     r:/
+2025/02/07 13:44:46.558 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 13:46:44.502 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 13:49:08.110 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 13:49:08.164 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.3645ms|   match|[44m GET     [0m /     r:/
+2025/02/07 13:49:21.711 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0555ms|   match|[46m POST    [0m /     r:/
+2025/02/07 13:49:24.319 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0266ms|   match|[46m POST    [0m /     r:/
+2025/02/07 13:50:06.895 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 13:51:48.687 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 13:51:53.825 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    30.1471ms|   match|[44m GET     [0m /     r:/
+2025/02/07 13:52:06.467 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /     r:/
+2025/02/07 13:52:11.850 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     25.239ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 13:52:19.261 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.3888ms|   match|[46m POST    [0m /     r:/
+2025/02/07 13:52:29.134 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /     r:/
+2025/02/07 13:52:34.156 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.1338ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 13:52:37.031 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      900.3µs|   match|[46m POST    [0m /     r:/
+2025/02/07 13:53:01.246 [I] [asm_amd64.s:1700]  http server Running on http://:8089
