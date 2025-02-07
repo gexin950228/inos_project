@@ -17,5 +17,6 @@ func main() {
 		logs.Emergency(err.Error())
 	}
 	orm.RunCommand()
+	beego.BConfig.WebConfig.Session.SessionOn = true
 	beego.Run(":8089")
 }

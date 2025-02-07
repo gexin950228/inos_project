@@ -379,3 +379,142 @@
 2025/02/07 13:52:34.156 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.1338ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
 2025/02/07 13:52:37.031 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      900.3µs|   match|[46m POST    [0m /     r:/
 2025/02/07 13:53:01.246 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 13:56:21.947 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 13:59:03.752 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 13:59:10.114 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    29.0399ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 13:59:15.636 [C] [panic.go:785]  the request url is  /
+2025/02/07 13:59:15.636 [C] [panic.go:785]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2025/02/07 13:59:15.636 [C] [panic.go:785]  D:/go/src/runtime/panic.go:785
+2025/02/07 13:59:15.636 [C] [panic.go:785]  D:/go/src/runtime/panic.go:262
+2025/02/07 13:59:15.636 [C] [panic.go:785]  D:/go/src/runtime/signal_windows.go:401
+2025/02/07 13:59:15.636 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:624
+2025/02/07 13:59:15.636 [C] [panic.go:785]  D:/inos_project/controllers/login/loginController.go:101
+2025/02/07 13:59:15.636 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:835
+2025/02/07 13:59:15.636 [C] [panic.go:785]  D:/go/src/net/http/server.go:3210
+2025/02/07 13:59:15.636 [C] [panic.go:785]  D:/go/src/net/http/server.go:2092
+2025/02/07 13:59:15.636 [C] [panic.go:785]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/07 13:59:15.637 [server.go:3487]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/07 14:00:26.520 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 14:00:30.578 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    25.5575ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 14:00:34.791 [C] [panic.go:785]  the request url is  /
+2025/02/07 14:00:34.791 [C] [panic.go:785]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2025/02/07 14:00:34.791 [C] [panic.go:785]  D:/go/src/runtime/panic.go:785
+2025/02/07 14:00:34.791 [C] [panic.go:785]  D:/go/src/runtime/panic.go:262
+2025/02/07 14:00:34.791 [C] [panic.go:785]  D:/go/src/runtime/signal_windows.go:401
+2025/02/07 14:00:34.791 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:624
+2025/02/07 14:00:34.791 [C] [panic.go:785]  D:/inos_project/controllers/login/loginController.go:98
+2025/02/07 14:00:34.791 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:835
+2025/02/07 14:00:34.791 [C] [panic.go:785]  D:/go/src/net/http/server.go:3210
+2025/02/07 14:00:34.791 [C] [panic.go:785]  D:/go/src/net/http/server.go:2092
+2025/02/07 14:00:34.791 [C] [panic.go:785]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/07 14:00:34.791 [server.go:3487]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/07 14:01:09.149 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 14:01:35.740 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 14:01:40.258 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.7641ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 14:01:43.594 [C] [panic.go:785]  the request url is  /
+2025/02/07 14:01:43.594 [C] [panic.go:785]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2025/02/07 14:01:43.594 [C] [panic.go:785]  D:/go/src/runtime/panic.go:785
+2025/02/07 14:01:43.594 [C] [panic.go:785]  D:/go/src/runtime/panic.go:262
+2025/02/07 14:01:43.594 [C] [panic.go:785]  D:/go/src/runtime/signal_windows.go:401
+2025/02/07 14:01:43.594 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:624
+2025/02/07 14:01:43.594 [C] [panic.go:785]  D:/inos_project/controllers/login/loginController.go:98
+2025/02/07 14:01:43.594 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:835
+2025/02/07 14:01:43.594 [C] [panic.go:785]  D:/go/src/net/http/server.go:3210
+2025/02/07 14:01:43.594 [C] [panic.go:785]  D:/go/src/net/http/server.go:2092
+2025/02/07 14:01:43.594 [C] [panic.go:785]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/07 14:01:43.594 [server.go:3487]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2025/02/07 14:02:18.017 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 14:03:17.983 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 14:04:05.406 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 14:04:10.428 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.9863ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 14:04:13.270 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.3584ms|   match|[46m POST    [0m /     r:/
+2025/02/07 14:07:18.870 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /     r:/
+2025/02/07 14:07:22.036 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    24.2072ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/07 14:07:33.372 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      506.3µs|   match|[46m POST    [0m /     r:/
+2025/02/07 14:35:08.984 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    25.9076ms|   match|[44m GET     [0m /     r:/
+2025/02/07 14:37:13.302 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/02/07 14:37:13.508 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/02/07 14:37:13.537 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    28.2165ms|   match|[44m GET     [0m /     r:/
+2025/02/07 14:37:13.927 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/02/07 14:37:14.134 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/02/07 14:37:14.134 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/02/07 14:37:14.289 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/02/07 14:37:14.340 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/02/07 14:37:14.340 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/02/07 14:37:14.755 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/02/07 14:37:15.318 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/02/07 14:37:15.930 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/02/07 14:37:16.203 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/02/07 14:37:19.465 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/02/07 14:37:20.466 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/02/07 14:37:22.979 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/02/07 14:37:26.560 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/02/07 14:37:26.716 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/02/07 14:38:15.211 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    23.9293ms|   match|[44m GET     [0m /     r:/
+2025/02/07 14:39:15.445 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/02/07 14:39:15.469 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    24.4008ms|   match|[44m GET     [0m /     r:/
+2025/02/07 14:39:15.655 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/02/07 14:39:15.808 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/02/07 14:39:15.808 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/02/07 14:39:15.891 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/02/07 14:39:16.045 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/02/07 14:39:16.295 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/02/07 14:39:16.619 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/02/07 14:39:16.670 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/02/07 14:39:16.836 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/02/07 14:39:17.070 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/02/07 14:39:17.070 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/02/07 14:39:17.233 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/02/07 14:39:17.277 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/02/07 14:39:17.403 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/02/07 14:39:17.420 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/02/07 14:39:17.473 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/02/07 14:44:18.218 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    24.9834ms|   match|[44m GET     [0m /     r:/
+2025/02/07 14:46:57.509 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|      625.5µs| nomatch|[44m GET     [0m /rps/
+2025/02/07 14:46:57.509 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|      625.5µs| nomatch|[44m GET     [0m /index.html
+2025/02/07 14:46:57.509 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|      625.5µs| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/02/07 14:46:57.598 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    35.1242ms|   match|[44m GET     [0m /     r:/
+2025/02/07 14:46:57.721 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/02/07 14:46:57.792 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/02/07 14:46:58.652 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/02/07 14:46:59.640 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/02/07 14:47:00.338 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/02/07 14:47:01.236 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/02/07 14:47:01.593 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/02/07 14:47:07.526 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/02/07 14:47:07.526 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/02/07 14:47:07.684 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/02/07 14:47:07.823 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/02/07 14:47:07.823 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/02/07 14:47:07.913 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/02/07 14:47:07.976 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/02/07 15:01:55.227 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      814.6µs|   match|[46m POST    [0m /     r:/
+2025/02/07 15:01:55.229 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      519.7µs|   match|[46m POST    [0m /     r:/
+2025/02/07 15:01:55.232 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      518.3µs|   match|[46m POST    [0m /     r:/
+2025/02/07 15:01:55.257 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      718.5µs|   match|[46m POST    [0m /     r:/
+2025/02/07 15:21:43.891 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      814.3µs|   match|[46m POST    [0m /     r:/
+2025/02/07 15:21:43.892 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /     r:/
+2025/02/07 15:21:43.912 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      507.1µs|   match|[46m POST    [0m /     r:/
+2025/02/07 15:21:43.935 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /     r:/
+2025/02/07 16:54:31.495 [D] [server.go:3210]  | 10.161.252.112|[42m 200 [0m|    52.6742ms|   match|[44m GET     [0m /     r:/
+2025/02/07 16:54:32.182 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 16:56:01.672 [D] [server.go:3210]  | 10.161.252.112|[42m 200 [0m|    42.8103ms|   match|[44m GET     [0m /     r:/
+2025/02/07 16:56:01.839 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/02/07 16:56:01.839 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/02/07 16:56:01.839 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/02/07 16:56:02.048 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/02/07 16:56:02.048 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/02/07 16:56:02.049 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      505.7µs| nomatch|[44m GET     [0m /login.asp
+2025/02/07 16:56:02.274 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/02/07 16:56:02.662 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      622.9µs| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/02/07 16:56:02.662 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      622.9µs| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/02/07 16:56:02.864 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/02/07 16:56:02.864 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/02/07 16:56:03.130 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/02/07 16:56:04.928 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/02/07 16:56:12.850 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/02/07 16:56:13.218 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/02/07 16:56:13.454 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/02/07 16:56:13.860 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/02/07 17:15:38.030 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/07 17:15:39.234 [I] [asm_amd64.s:1700]  http server Running on http://:8089

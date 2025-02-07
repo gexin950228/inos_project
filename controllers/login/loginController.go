@@ -7,6 +7,7 @@ import (
 	"github.com/astaxie/beego/orm"
 	"github.com/mojocn/base64Captcha"
 	"image/color"
+	"inos_project/models/user"
 	"inos_project/utils"
 )
 
@@ -83,14 +84,15 @@ func (c *LoginController) Post() {
 	repResult := map[string]interface{}{}
 	// 验证码校验
 	verifyCodeCheck := VerifyCaptcha(loginInfo.CaptchaId, loginInfo.Captcha)
-	fmt.Println(verifyCodeCheck)
 	//用户名密码校验
 	if verifyCodeCheck {
 		pbs := utils.EncryptPassword(loginInfo.Password)
 		o := orm.NewOrm()
 		exist := o.QueryTable("user").Filter("username", loginInfo.Username).Filter("password", pbs).Exist()
-
+		var loginUser user.User
 		if exist {
+			o.QueryTable("user").Filter("username", loginInfo.Username).One(&loginUser)
+			c.SetSession("userId", loginUser.Id)
 			repResult["code"] = 0
 			repResult["msg"] = "用户名密码正确，登陆成功"
 		} else {

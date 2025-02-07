@@ -20,3 +20,36 @@
 2025/02/07 11:39:49.914 [C] [panic.go:785]  D:/go/src/net/http/server.go:3210
 2025/02/07 11:39:49.914 [C] [panic.go:785]  D:/go/src/net/http/server.go:2092
 2025/02/07 11:39:49.914 [C] [panic.go:785]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/07 13:59:15.636 [C] [panic.go:785]  the request url is  /
+2025/02/07 13:59:15.636 [C] [panic.go:785]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2025/02/07 13:59:15.636 [C] [panic.go:785]  D:/go/src/runtime/panic.go:785
+2025/02/07 13:59:15.636 [C] [panic.go:785]  D:/go/src/runtime/panic.go:262
+2025/02/07 13:59:15.636 [C] [panic.go:785]  D:/go/src/runtime/signal_windows.go:401
+2025/02/07 13:59:15.636 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:624
+2025/02/07 13:59:15.636 [C] [panic.go:785]  D:/inos_project/controllers/login/loginController.go:101
+2025/02/07 13:59:15.636 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:835
+2025/02/07 13:59:15.636 [C] [panic.go:785]  D:/go/src/net/http/server.go:3210
+2025/02/07 13:59:15.636 [C] [panic.go:785]  D:/go/src/net/http/server.go:2092
+2025/02/07 13:59:15.636 [C] [panic.go:785]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/07 14:00:34.791 [C] [panic.go:785]  the request url is  /
+2025/02/07 14:00:34.791 [C] [panic.go:785]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2025/02/07 14:00:34.791 [C] [panic.go:785]  D:/go/src/runtime/panic.go:785
+2025/02/07 14:00:34.791 [C] [panic.go:785]  D:/go/src/runtime/panic.go:262
+2025/02/07 14:00:34.791 [C] [panic.go:785]  D:/go/src/runtime/signal_windows.go:401
+2025/02/07 14:00:34.791 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:624
+2025/02/07 14:00:34.791 [C] [panic.go:785]  D:/inos_project/controllers/login/loginController.go:98
+2025/02/07 14:00:34.791 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:835
+2025/02/07 14:00:34.791 [C] [panic.go:785]  D:/go/src/net/http/server.go:3210
+2025/02/07 14:00:34.791 [C] [panic.go:785]  D:/go/src/net/http/server.go:2092
+2025/02/07 14:00:34.791 [C] [panic.go:785]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/07 14:01:43.594 [C] [panic.go:785]  the request url is  /
+2025/02/07 14:01:43.594 [C] [panic.go:785]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2025/02/07 14:01:43.594 [C] [panic.go:785]  D:/go/src/runtime/panic.go:785
+2025/02/07 14:01:43.594 [C] [panic.go:785]  D:/go/src/runtime/panic.go:262
+2025/02/07 14:01:43.594 [C] [panic.go:785]  D:/go/src/runtime/signal_windows.go:401
+2025/02/07 14:01:43.594 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:624
+2025/02/07 14:01:43.594 [C] [panic.go:785]  D:/inos_project/controllers/login/loginController.go:98
+2025/02/07 14:01:43.594 [C] [panic.go:785]  C:/Users/gexin/go/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:835
+2025/02/07 14:01:43.594 [C] [panic.go:785]  D:/go/src/net/http/server.go:3210
+2025/02/07 14:01:43.594 [C] [panic.go:785]  D:/go/src/net/http/server.go:2092
+2025/02/07 14:01:43.594 [C] [panic.go:785]  D:/go/src/runtime/asm_amd64.s:1700
