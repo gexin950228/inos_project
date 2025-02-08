@@ -87,12 +87,18 @@ func (c *LoginController) Post() {
 	//用户名密码校验
 	if verifyCodeCheck {
 		pbs := utils.EncryptPassword(loginInfo.Password)
+		fmt.Println(pbs)
 		o := orm.NewOrm()
 		exist := o.QueryTable("user").Filter("username", loginInfo.Username).Filter("password", pbs).Exist()
+		fmt.Printf("用户是否存在: %v\n", exist)
 		var loginUser user.User
 		if exist {
 			o.QueryTable("user").Filter("username", loginInfo.Username).One(&loginUser)
-			c.SetSession("userId", loginUser.Id)
+			if len(loginUser.Password) < 6 {
+				repResult["code"] = 1
+				repResult["msg"] = "密码长度不能低于6位"
+			}
+			c.SetSession("username", loginUser.UserName)
 			repResult["code"] = 0
 			repResult["msg"] = "用户名密码正确，登陆成功"
 		} else {

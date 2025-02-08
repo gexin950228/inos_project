@@ -3,3 +3,18 @@
 2025/02/06 16:49:53.830 [E] [template.go:176]  parse template err: login/login.html template: login/login.html:41: function "captcha" not defined
 2025/02/07 11:39:03.072 [E] [router.go:835]  <QuerySeter> no row found
 2025/02/07 11:39:49.913 [E] [router.go:835]  <QuerySeter> no row found
+2025/02/08 09:34:44.699 [E] [template.go:176]  parse template err: index.html template: index.html:277: expected :=
+2025/02/08 11:33:08.130 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:94: missing value for range
+2025/02/08 11:34:39.641 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:94: function "user" not defined
+2025/02/08 11:34:54.503 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:94: function "user" not defined
+2025/02/08 11:36:38.591 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:66: function "user" not defined
+2025/02/08 11:41:01.662 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:74: unexpected <.> in operand
+2025/02/08 11:41:02.342 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:74: unexpected <.> in operand
+2025/02/08 13:48:25.681 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:74: unexpected <.> in operand
+2025/02/08 13:48:26.361 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:74: unexpected <.> in operand
+2025/02/08 13:51:23.080 [E] [router.go:833]  查询用户数据报错，错误信息位:Error 1054: Unknown column 'T0.email' in 'field list'
+2025/02/08 16:38:25.332 [E] [server.go:3210]  template: user/member-list.html:82:26: executing "user/member-list.html" at <$user.CreateTime>: CreateTime has arguments but cannot be invoked as function
+2025/02/08 16:38:31.261 [E] [server.go:3210]  template: user/member-list.html:82:26: executing "user/member-list.html" at <$user.CreateTime>: CreateTime has arguments but cannot be invoked as function
+2025/02/08 16:39:11.544 [E] [server.go:3210]  template: user/member-list.html:82:26: executing "user/member-list.html" at <$user.CreateTime>: CreateTime has arguments but cannot be invoked as function
+2025/02/08 16:39:28.978 [E] [server.go:3210]  template: user/member-list.html:82:26: executing "user/member-list.html" at <$user.CreateTime>: CreateTime has arguments but cannot be invoked as function
+2025/02/08 16:41:49.790 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:184: unexpected EOF

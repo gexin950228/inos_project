@@ -16,6 +16,8 @@ type User struct {
 	Phone      string    `form:"phone" json:"phone" orm:"size(50);description(电话号码);column(phone);description(电话号码)"`
 	Addr       string    `form:"addr" json:"addr" orm:"size(50);column(addr);description(住址);null"`
 	CreateTime time.Time `orm:"type(datetime);auto_now;column(create_time);null"`
+	IsDeleted  int       `orm:"type(int);column(is_deleted);description(账号是否可以)" json:"is_deleted"`
+	Email      string    `orm:"column(email);size(100);description(邮箱)" json:"email" form:"email"`
 }
 
 func (u *User) TableName() string {

@@ -15,6 +15,9 @@
     <script src="/static/lib/layui/layui.js" charset="utf-8"></script>
     <script type="text/javascript" src="/static/js/xadmin.js"></script>
     <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/sweetalert.min.js"></script>
+    <script src="/static/js/ions_alert.js"></script>
+    <link rel="stylesheet" href="/static/css/sweetalert.css" />
 </head>
 <body class="login-bg">
     
@@ -59,6 +62,7 @@
                             imgId.setAttribute("src",data["Captcha"]);
                             let captchaId = document.getElementById("captchaId");
                             captchaId.setAttribute("value",Id);
+
                         }
                     },
                     fail: function (data) {
@@ -92,10 +96,16 @@
                         "captcha": captcha,
                     },
                     success: function (data) {
-                        alert(data["msg"]);
+                        if (data.code === 0) {
+                            ions_alert.alertSuccess(data["msg"]);
+                            window.location.href = "/inner/home";
+                        } else {
+                            ions_alert.alertError(data["msg"]);
+                        }
+
                     },
                     fail: function (data) {
-                        alert(data["msg"]);
+                        ions_alert.alertError(data["msg"]);
                     },
                 })
               });
