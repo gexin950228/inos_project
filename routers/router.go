@@ -13,8 +13,9 @@ func init() {
 	beego.Router("/change_captcha", &login.LoginController{}, "get:ChangeCaptcha")
 
 	// 登陆后才能访问的url
-	beego.Router("/inner/home", &controllers.HomeController{})
+	beego.Router("/inner/home/", &controllers.HomeController{})
 	beego.Router("/inner/welcome", &controllers.HomeController{}, "get:Welcome")
-	beego.Router("/inner/user-list", &user.ExecUserController{})
+	beego.Router("/inner/user-list/?:pageId", &user.ExecUserController{})
 	beego.Router("/inner/user-add", &user.ExecUserController{}, "*:AddUser")
+	beego.Router("/inner/modify-add", &user.ExecUserController{}, "post:ExecAddUser")
 }

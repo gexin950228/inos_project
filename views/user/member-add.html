@@ -24,36 +24,66 @@
     <div class="x-body">
         <form class="layui-form">
           <div class="layui-form-item">
-              <label for="L_email" class="layui-form-label">
-                  <span class="x-red">*</span>邮箱
+              <label class="layui-form-label layui-word-aux">
+                  <span class="x-red">*</span>用户名
               </label>
               <div class="layui-input-inline">
-                  <input type="text" id="L_email" name="email" required="" lay-verify="email"
-                  autocomplete="off" class="layui-input">
+                  <input type="text" id="username" name="username" required lay-verify="username"  autocomplete="off" class="layui-input">
+                  <span class="x-red" style="text-align: right">*</span>这会成为您唯一的用户名
               </div>
               <div class="layui-form-mid layui-word-aux">
-                  <span class="x-red">*</span>将会成为您唯一的登入名
+                  <span class="x-red">*</span>地址
+              </div>
+              <div class="layui-form-mid layui-word-aux">
+                  <input type="password" id="address" name="address">
               </div>
           </div>
           <div class="layui-form-item">
+              <label id="age" class="layui-form-label">
+                  <span class="x-red">*</span>年龄
+              </label>
+              <div class="layui-form-mid layui-word-aux">
+                  <input type="text" name="age">
+              </div>
+              <label id="phone" name="phone"  class="layui-form-label">
+                  <span class="x-red">*</span>电话号码
+              </label>
+              <div class="layui-form-mid layui-word-aux">
+                  <input type="text" name="phone">
+              </div>
               <label for="L_username" class="layui-form-label">
                   <span class="x-red">*</span>昵称
               </label>
               <div class="layui-input-inline">
-                  <input type="text" id="L_username" name="username" required="" lay-verify="nikename"
+                  <input type="text" id="gender" name="gender" required="" lay-verify="gender"
                   autocomplete="off" class="layui-input">
+              </div>
+              <label for="L_username" class="layui-form-label">
+                  <span class="x-red">*</span>性别
+              </label>
+              <div class="layui-input-inline">
+                  <input type="text" id="L_username" name="username" required="" lay-verify="nikename"
+                         autocomplete="off" class="layui-input">
+              </div>
+              <label id="is_activce" class="layui-form-label">
+                  <span class="x-red">*</span>是否启用
+              </label>
+              <div class="layui-input-inline">
+                  <input type="radio"  name="is_active" required="" lay-verify="is_active"
+                         autocomplete="off" class="layui-input" value="1">启用
+                  <input type="radio" name="is_active" required="" lay-verify="is_active"
+                         autocomplete="off" class="layui-input" value="0">停用
               </div>
           </div>
           <div class="layui-form-item">
               <label for="L_pass" class="layui-form-label">
                   <span class="x-red">*</span>密码
               </label>
+
               <div class="layui-input-inline">
                   <input type="password" id="L_pass" name="pass" required="" lay-verify="pass"
                   autocomplete="off" class="layui-input">
-              </div>
-              <div class="layui-form-mid layui-word-aux">
-                  6到16个字符
+                  <span>*</span> 6到16个字符
               </div>
           </div>
           <div class="layui-form-item">
@@ -63,6 +93,7 @@
               <div class="layui-input-inline">
                   <input type="password" id="L_repass" name="repass" required="" lay-verify="repass"
                   autocomplete="off" class="layui-input">
+                  <span>*</span> 6到16个字符,与密码一致
               </div>
           </div>
           <div class="layui-form-item">

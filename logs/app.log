@@ -1274,3 +1274,904 @@
 2025/02/08 17:37:16.351 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2067ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list
 2025/02/08 17:37:17.537 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0301ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list
 2025/02/08 17:37:18.881 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.4µs|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list
+2025/02/10 09:05:14.129 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:05:14.811 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:05:19.983 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.6534ms|   match|[44m GET     [0m /     r:/
+2025/02/10 09:05:20.007 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      504.4µs|   match|[44m GET     [0m /static/css/font.css
+2025/02/10 09:05:20.007 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      522.8µs|   match|[44m GET     [0m /static/css/xadmin.css
+2025/02/10 09:05:20.009 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      529.5µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/02/10 09:05:20.009 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.0512ms|   match|[44m GET     [0m /static/js/xadmin.js
+2025/02/10 09:05:20.016 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.0633ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/02/10 09:05:20.609 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      504.2µs|   match|[44m GET     [0m /static/images/bg.png
+2025/02/10 09:05:20.609 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      1.035ms|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/02/10 09:05:20.618 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      535.1µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/02/10 09:05:20.625 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      503.5µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/02/10 09:05:20.630 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      541.2µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/02/10 09:05:20.638 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      532.4µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/02/10 09:05:30.557 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.029ms|   match|[46m POST    [0m /     r:/
+2025/02/10 09:05:30.588 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.059ms|   match|[44m GET     [0m /inner/home   r:/inner/home
+2025/02/10 09:05:30.609 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.3µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:05:30.613 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      579.7µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2025/02/10 09:05:30.637 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      750.8µs|   match|[44m GET     [0m /static/lib/layui/font/iconfont.woff
+2025/02/10 09:05:32.930 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8502ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list
+2025/02/10 09:05:32.942 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      525.8µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/laydate.js
+2025/02/10 09:05:32.958 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.2298ms|   match|[44m GET     [0m /static/lib/layui/css/modules/laydate/default/laydate.css
+2025/02/10 09:05:35.173 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5599ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list
+2025/02/10 09:06:02.681 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.8754ms|   match|[44m GET     [0m /inner/home   r:/inner/home
+2025/02/10 09:06:02.706 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      771.5µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:06:05.513 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5371ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list
+2025/02/10 09:07:08.917 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:07:13.539 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.6298ms|   match|[44m GET     [0m /inner/home   r:/inner/home
+2025/02/10 09:07:13.566 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      506.3µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:07:13.662 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      544.4µs|   match|[44m GET     [0m /static/images/zlkt.ico
+2025/02/10 09:07:13.666 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2025/02/10 09:07:15.256 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5896ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list
+2025/02/10 09:09:25.881 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:09:27.341 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.4127ms|   match|[44m GET     [0m /inner/home   r:/inner/home
+2025/02/10 09:09:27.368 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.036ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:09:30.729 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.9214ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list
+2025/02/10 09:10:23.529 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:10:25.351 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      506.1µs|   match|[44m GET     [0m /inner/home   r:/inner/home
+2025/02/10 09:10:25.378 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.8µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:10:28.219 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5661ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list
+2025/02/10 09:10:54.505 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:10:55.314 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1068ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list
+2025/02/10 09:11:22.790 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:11:23.986 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.0913ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list
+2025/02/10 09:12:40.258 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:12:41.479 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.0907ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list
+2025/02/10 09:13:25.759 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/payslip-list.html
+2025/02/10 09:14:05.628 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5696ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list
+2025/02/10 09:14:06.605 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1112ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list
+2025/02/10 09:14:08.636 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:14:11.695 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/user-list
+2025/02/10 09:14:51.243 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:14:51.901 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5643ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 09:14:51.931 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      509.4µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:14:53.501 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.0613ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:page_id
+2025/02/10 09:15:17.691 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:15:19.798 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.9202ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 09:15:19.822 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.7µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:15:21.659 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5605ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pid
+2025/02/10 09:26:44.662 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:40:27.028 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:42:36.088 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5559ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 09:42:36.119 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.1µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:42:39.246 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:42:39.765 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.3493ms|   match|[44m GET     [0m /inner/user-list/page_id=   r:/inner/user-list/?:pageId
+2025/02/10 09:43:09.358 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1542ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 09:43:09.407 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.9µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:45:55.230 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.6085ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 09:45:55.282 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2863ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:45:57.855 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5764ms|   match|[44m GET     [0m /inner/user-list/page_id=   r:/inner/user-list/?:pageId
+2025/02/10 09:47:21.774 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.9131ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 09:47:21.827 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        508µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:47:23.889 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.0236ms|   match|[44m GET     [0m /inner/user-list/page_id=   r:/inner/user-list/?:pageId
+2025/02/10 09:48:33.404 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:48:34.331 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.5µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 09:48:34.387 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.8µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:48:37.224 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.8239ms|   match|[44m GET     [0m /inner/user-list/page_id=   r:/inner/user-list/?:pageId
+2025/02/10 09:48:50.732 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        506µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 09:48:50.791 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      627.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:48:51.305 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:48:51.786 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0335ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 09:48:51.849 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.4µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:48:53.279 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.646ms|   match|[44m GET     [0m /inner/user-list/page_id=   r:/inner/user-list/?:pageId
+2025/02/10 09:49:20.926 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:49:21.987 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.301ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 09:49:22.045 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1917ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:49:24.255 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.4046ms|   match|[44m GET     [0m /inner/user-list/page_id=   r:/inner/user-list/?:pageId
+2025/02/10 09:49:54.283 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:49:55.256 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7759ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 09:49:55.306 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.3µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:49:57.526 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5673ms|   match|[44m GET     [0m /inner/user-list/page_id=   r:/inner/user-list/?:pageId
+2025/02/10 09:50:22.233 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 09:50:22.733 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.035ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 09:50:22.793 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.5µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 09:50:24.910 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5737ms|   match|[44m GET     [0m /inner/user-list/page_id=   r:/inner/user-list/?:pageId
+2025/02/10 10:00:54.404 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:00:55.403 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:01:06.672 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:01:06.806 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0219ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:01:06.846 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      507.7µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:01:09.325 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5591ms|   match|[44m GET     [0m /inner/user-list/page_id=   r:/inner/user-list/?:pageId
+2025/02/10 10:01:24.992 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        504µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:01:25.015 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      973.5µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:01:27.093 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.555ms|   match|[44m GET     [0m /inner/user-list/page_id=   r:/inner/user-list/?:pageId
+2025/02/10 10:01:59.416 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.4298ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:01:59.440 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      508.5µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:02:02.814 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5603ms|   match|[44m GET     [0m /inner/user-list/page_id=   r:/inner/user-list/?:pageId
+2025/02/10 10:02:38.891 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0166ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:02:38.917 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.9µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:02:39.449 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:02:41.119 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      2.903ms|   match|[44m GET     [0m /inner/user-list/pageId=   r:/inner/user-list/?:pageId
+2025/02/10 10:03:01.350 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1561ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:03:01.374 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|       1.04ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:03:03.899 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7582ms|   match|[44m GET     [0m /inner/user-list/pageId=   r:/inner/user-list/?:pageId
+2025/02/10 10:03:48.240 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      506.2µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:03:48.267 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      509.6µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:03:50.234 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:03:50.383 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5751ms|   match|[44m GET     [0m /inner/user-list/pageId=   r:/inner/user-list/?:pageId
+2025/02/10 10:04:00.530 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.6435ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:04:00.555 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2631ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:04:02.938 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5655ms|   match|[44m GET     [0m /inner/user-list/pageId=   r:/inner/user-list/?:pageId
+2025/02/10 10:05:30.577 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:05:31.261 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:05:34.019 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0332ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:05:34.047 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        532µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:05:35.786 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1225ms|   match|[44m GET     [0m /inner/user-list/pageId=1   r:/inner/user-list/?:pageId
+2025/02/10 10:07:00.256 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0667ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:07:00.285 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.4µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:07:02.251 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.5301ms|   match|[44m GET     [0m /inner/user-list/pageId=1   r:/inner/user-list/?:pageId
+2025/02/10 10:07:21.834 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0273ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:07:21.857 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      477.7µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:07:24.432 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6203ms|   match|[44m GET     [0m /inner/user-list/pageId=2   r:/inner/user-list/?:pageId
+2025/02/10 10:09:00.213 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:09:27.018 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:09:27.357 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0304ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:09:27.386 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      513.7µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:09:29.512 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8503ms|   match|[44m GET     [0m /inner/user-list/pageId=2   r:/inner/user-list/?:pageId
+2025/02/10 10:10:51.408 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:10:52.329 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0311ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:10:52.359 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.266ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:10:53.850 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      2.587ms|   match|[44m GET     [0m /inner/user-list/pageId=2   r:/inner/user-list/?:pageId
+2025/02/10 10:11:41.488 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      637.8µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:11:41.550 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      508.1µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:11:42.040 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:11:43.316 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1615ms|   match|[44m GET     [0m /inner/user-list/pageId=2   r:/inner/user-list/?:pageId
+2025/02/10 10:13:55.518 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:13:56.060 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0294ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:13:56.121 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:15:39.913 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:15:40.423 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.4157ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:15:40.486 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      585.9µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:16:34.072 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:16:34.659 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0293ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:16:34.724 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        513µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:19:57.406 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:19:58.333 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.8131ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:19:58.438 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.3543ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:20:01.680 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5633ms|   match|[44m GET     [0m /inner/user-list/pageId=2   r:/inner/user-list/?:pageId
+2025/02/10 10:20:41.553 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:20:41.788 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7736ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:20:41.863 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      675.9µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:20:44.658 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5703ms|   match|[44m GET     [0m /inner/user-list/pageId=2   r:/inner/user-list/?:pageId
+2025/02/10 10:21:19.432 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      533.8µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:21:19.493 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.7µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:21:19.999 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:21:21.639 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.4834ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/10 10:21:48.415 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.9µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:21:48.474 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:21:48.968 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:21:50.625 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.0973ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/10 10:22:11.127 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:22:11.877 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      800.8µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:22:11.931 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      756.1µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:22:13.601 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1359ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/10 10:22:18.995 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0832ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:22:19.045 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        504µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:22:21.161 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.0307ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/10 10:23:12.079 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:38:33.179 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8693ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:38:33.250 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0362ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:38:36.923 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5501ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/10 10:38:44.664 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.4533ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:38:44.720 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.3µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:38:47.925 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0289ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/10 10:38:53.406 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5692ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/10 10:38:59.781 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5653ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/10 10:39:02.651 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.063ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:39:02.707 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        506µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:39:04.255 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0332ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/10 10:39:08.363 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8999ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:39:08.414 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      506.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:39:10.065 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5769ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/10 10:40:32.823 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:42:32.849 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:42:39.718 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0391ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:42:39.777 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      507.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:42:41.522 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:42:42.209 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.1µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/10 10:42:42.262 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        758µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/10 10:42:42.597 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/10 10:42:43.752 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5586ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/11 14:58:53.714 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/11 14:58:54.392 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/11 14:58:55.948 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.5903ms|   match|[44m GET     [0m /     r:/
+2025/02/11 14:58:55.965 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      507.1µs|   match|[44m GET     [0m /static/css/font.css
+2025/02/11 14:58:55.967 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      513.1µs|   match|[44m GET     [0m /static/css/xadmin.css
+2025/02/11 14:58:55.967 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      525.9µs|   match|[44m GET     [0m /static/js/xadmin.js
+2025/02/11 14:58:55.967 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      525.9µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/02/11 14:58:55.972 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.0457ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/02/11 14:58:56.585 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     2.0602ms|   match|[44m GET     [0m /static/images/bg.png
+2025/02/11 14:58:56.585 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     2.5887ms|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/02/11 14:58:56.591 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      524.3µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/02/11 14:58:56.596 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      514.7µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/02/11 14:58:56.601 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      508.2µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/02/11 14:58:56.608 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      527.7µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/02/11 14:58:56.633 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      505.6µs|   match|[44m GET     [0m /static/img/zlkt.ico
+2025/02/11 14:58:56.638 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      529.7µs| nomatch|[44m GET     [0m /favicon.ico
+2025/02/11 14:59:10.274 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.7584ms|   match|[44m GET     [0m /change_captcha   r:/change_captcha
+2025/02/11 14:59:14.979 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      19.73ms|   match|[46m POST    [0m /     r:/
+2025/02/11 14:59:15.003 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0485ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/11 14:59:15.028 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      751.4µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/11 14:59:15.035 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      527.7µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2025/02/11 14:59:15.064 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      508.7µs|   match|[44m GET     [0m /static/lib/layui/font/iconfont.woff
+2025/02/11 14:59:17.180 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      2.287ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/11 14:59:17.192 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      749.7µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/laydate.js
+2025/02/11 14:59:17.212 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.0359ms|   match|[44m GET     [0m /static/lib/layui/css/modules/laydate/default/laydate.css
+2025/02/11 15:01:42.210 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    27.7653ms|   match|[44m GET     [0m /     r:/
+2025/02/11 15:04:14.657 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/02/11 15:04:14.657 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/02/11 15:04:14.657 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/02/11 15:04:14.657 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/02/11 15:04:14.682 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|     24.989ms|   match|[44m GET     [0m /     r:/
+2025/02/11 15:04:14.863 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/02/11 15:04:14.863 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/02/11 15:04:14.863 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/02/11 15:04:14.863 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/02/11 15:04:14.863 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/02/11 15:04:15.081 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/02/11 15:04:15.081 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/02/11 15:04:15.081 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/02/11 15:04:15.082 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/02/11 15:04:15.082 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|      528.1µs| nomatch|[44m GET     [0m /cap.js
+2025/02/11 15:04:15.299 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/02/11 15:04:15.485 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/02/11 15:04:15.890 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/02/11 15:16:11.146 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/11 15:16:12.686 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      636.5µs| nomatch|[44m GET     [0m /inner/news-list.html
+2025/02/11 15:16:14.942 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.2055ms|   match|[44m GET     [0m /     r:/
+2025/02/11 15:16:27.220 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.0709ms|   match|[46m POST    [0m /     r:/
+2025/02/11 15:16:27.235 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2541ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/11 15:16:27.256 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      510.3µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/11 15:16:29.178 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.557ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/11 15:18:34.905 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/11 15:40:20.727 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.5966ms|   match|[46m POST    [0m /     r:/
+2025/02/11 15:40:20.731 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      526.4µs|   match|[46m POST    [0m /     r:/
+2025/02/11 15:40:20.733 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /     r:/
+2025/02/11 15:40:20.749 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      769.9µs|   match|[46m POST    [0m /     r:/
+2025/02/11 15:43:22.290 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2479ms|   match|[46m POST    [0m /     r:/
+2025/02/11 15:43:22.294 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      517.2µs|   match|[46m POST    [0m /     r:/
+2025/02/11 15:43:22.295 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /     r:/
+2025/02/11 15:43:22.316 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /     r:/
+2025/02/11 16:53:25.709 [D] [server.go:3210]  | 10.161.252.112|[42m 200 [0m|    43.5939ms|   match|[44m GET     [0m /     r:/
+2025/02/11 16:53:26.395 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/11 16:53:27.077 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/11 16:55:44.325 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      2.655ms| nomatch|[44m GET     [0m /index.html
+2025/02/11 16:55:45.362 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/02/11 16:55:46.360 [D] [server.go:3210]  | 10.161.252.112|[42m 200 [0m|    27.3469ms|   match|[44m GET     [0m /     r:/
+2025/02/11 16:55:55.287 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/02/11 16:55:55.686 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/02/11 16:55:58.246 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      504.6µs| nomatch|[44m GET     [0m /script/inc.js
+2025/02/11 16:55:59.212 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/02/11 16:56:03.366 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/02/11 16:56:04.234 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/02/11 16:56:05.740 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/02/11 16:56:07.310 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/02/11 16:56:10.632 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/02/11 16:56:15.268 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/02/11 16:56:15.486 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/02/11 16:56:18.163 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/02/11 16:56:19.375 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/02/11 16:56:19.553 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/02/11 16:56:22.456 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/02/11 16:59:23.308 [D] [server.go:3210]  | 10.161.252.112|[42m 200 [0m|    25.0527ms|   match|[44m GET     [0m /     r:/
+2025/02/11 17:00:39.170 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/02/11 17:00:39.198 [D] [server.go:3210]  | 10.161.252.112|[42m 200 [0m|    28.5754ms|   match|[44m GET     [0m /     r:/
+2025/02/11 17:00:39.357 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/02/11 17:00:39.582 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/02/11 17:00:40.163 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/02/11 17:00:41.221 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/02/11 17:00:42.227 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/02/11 17:00:44.189 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/02/11 17:00:45.024 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/02/11 17:00:49.451 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/02/11 17:00:49.748 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/02/11 17:00:50.254 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/02/11 17:00:56.178 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/02/11 17:00:56.382 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      1.029ms| nomatch|[44m GET     [0m /cap.js
+2025/02/11 17:00:56.790 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/02/11 17:00:57.315 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/02/11 17:01:01.335 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/02/11 17:01:02.672 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/02/12 09:53:23.683 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 09:53:24.730 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 09:53:51.141 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 09:54:02.608 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.9371ms|   match|[44m GET     [0m /     r:/
+2025/02/12 09:54:02.620 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2025/02/12 09:54:02.621 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.1446ms|   match|[44m GET     [0m /static/css/xadmin.css
+2025/02/12 09:54:02.652 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      514.5µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/02/12 09:54:02.653 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.0608ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/02/12 09:54:02.657 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      534.2µs|   match|[44m GET     [0m /static/js/xadmin.js
+2025/02/12 09:54:02.660 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.1177ms|   match|[44m GET     [0m /static/js/jquery.min.js
+2025/02/12 09:54:03.287 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      504.3µs|   match|[44m GET     [0m /static/images/bg.png
+2025/02/12 09:54:03.288 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.0353ms|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/02/12 09:54:03.298 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      524.8µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/02/12 09:54:03.307 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      505.9µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/02/12 09:54:03.324 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      524.7µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/02/12 09:54:04.094 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      506.2µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/02/12 09:54:13.919 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      6.869ms|   match|[46m POST    [0m /     r:/
+2025/02/12 09:54:13.948 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      685.4µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 09:54:13.970 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      709.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 09:54:13.978 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.0526ms|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2025/02/12 09:54:14.007 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      508.1µs|   match|[44m GET     [0m /static/lib/layui/font/iconfont.woff
+2025/02/12 09:54:16.418 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.0972ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 09:54:16.431 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      623.9µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/laydate.js
+2025/02/12 09:54:16.446 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.1452ms|   match|[44m GET     [0m /static/lib/layui/css/modules/laydate/default/laydate.css
+2025/02/12 09:55:23.154 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|       2.22ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 09:58:31.841 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 09:58:32.774 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2324ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 09:58:32.800 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      507.9µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 09:58:32.914 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      507.1µs|   match|[44m GET     [0m /static/images/zlkt.ico
+2025/02/12 09:58:32.918 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2025/02/12 09:58:33.589 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      527.9µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 09:58:33.612 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.7µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 09:58:35.108 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.3692ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 09:58:37.394 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.7µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 09:58:37.417 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.6µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 09:58:38.133 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0444ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 09:58:38.155 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      507.8µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 09:58:39.516 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|       3.01ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 09:59:14.869 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 10:00:31.916 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:118: missing value for command
+2025/02/12 10:00:31.916 [W] [beego.go:103]  template: user/member-list.html:118: missing value for command
+2025/02/12 10:00:59.144 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 10:00:59.663 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7952ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 10:00:59.688 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 10:01:00.444 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.096ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 10:01:00.468 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      673.7µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 10:01:01.777 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.1505ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:01:10.997 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1095ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:02:44.698 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5688ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:02:47.745 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 10:02:47.755 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.1668ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:02:48.424 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5675ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:02:54.841 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6458ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:02:57.240 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1885ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:04:49.236 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.3662ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:05:34.508 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 10:05:37.064 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1033ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:05:41.029 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5804ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:07:21.649 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      2.395ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:07:22.195 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 10:07:28.819 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5467ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:07:29.386 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 10:07:31.852 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.4323ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:09:56.845 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8047ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:10:00.006 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 10:10:00.145 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      3.038ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:10:00.909 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5357ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:10:01.499 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.579ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:10:03.382 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7111ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 10:40:41.536 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0395ms|   match|[46m POST    [0m /     r:/
+2025/02/12 10:40:41.539 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      521.5µs|   match|[46m POST    [0m /     r:/
+2025/02/12 10:40:41.541 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        528µs|   match|[46m POST    [0m /     r:/
+2025/02/12 10:40:41.543 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      535.2µs|   match|[46m POST    [0m /     r:/
+2025/02/12 11:33:41.823 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7038ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 11:33:42.505 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 11:33:43.184 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 11:33:44.219 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.3796ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 11:33:53.050 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0223ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 11:33:54.273 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0386ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 11:33:55.564 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0173ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 11:34:52.198 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0203ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 11:35:38.933 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      507.7µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 11:35:39.000 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      794.1µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 11:35:43.180 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6797ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 11:35:45.017 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0596ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 11:35:46.123 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.0744ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 11:35:46.905 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2819ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 11:37:53.086 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:119: unexpected ">" in operand
+2025/02/12 11:37:53.086 [W] [beego.go:103]  template: user/member-list.html:119: unexpected ">" in operand
+2025/02/12 11:38:22.675 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:119: function "ExecUserController" not defined
+2025/02/12 11:38:22.675 [W] [beego.go:103]  template: user/member-list.html:119: function "ExecUserController" not defined
+2025/02/12 11:38:49.617 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 11:38:49.948 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.028ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 11:38:50.006 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.7µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 11:38:51.846 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.3553ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 11:38:53.524 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2782ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:38:56.022 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1141ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:39:08.435 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0289ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:39:10.227 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8176ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:39:11.345 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5542ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:39:13.487 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.3327ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:39:15.113 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5683ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:40:06.013 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 11:40:06.663 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.6598ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:40:09.766 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0156ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:40:11.806 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0391ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:40:13.281 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0321ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:41:08.455 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 11:41:10.469 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6822ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:41:12.827 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6172ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:41:14.897 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6655ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:41:16.262 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5743ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:44:15.430 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:121: bad number syntax: "-l"
+2025/02/12 11:44:15.430 [W] [beego.go:103]  template: user/member-list.html:121: bad number syntax: "-l"
+2025/02/12 11:44:45.372 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 11:44:46.784 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.3521ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:44:49.414 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8259ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:44:51.227 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7442ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:44:52.681 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7102ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:46:14.658 [E] [controller.go:304]  parse template err: user/member-list.html template: user/member-list.html:121: function "lte" not defined
+2025/02/12 11:46:14.658 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0314ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:46:15.265 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:121: function "lte" not defined
+2025/02/12 11:46:15.266 [W] [beego.go:103]  template: user/member-list.html:121: function "lte" not defined
+2025/02/12 11:46:30.792 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 11:46:31.308 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5725ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 11:46:31.359 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      506.1µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 11:46:33.778 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6053ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 11:46:36.666 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.115ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:46:37.796 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7838ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:46:38.873 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7954ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:46:39.641 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1644ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:47:32.367 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1533ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:47:33.420 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5636ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:47:34.167 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5662ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:47:46.024 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5941ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:47:47.400 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0365ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:47:48.378 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.9722ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:47:52.519 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7008ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:48:51.781 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 11:48:52.132 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      2.125ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:48:52.905 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 11:48:53.030 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8424ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:48:58.371 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1554ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:49:25.445 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 11:49:26.156 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.9214ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:49:28.314 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6504ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:49:30.547 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1504ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:49:31.437 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1173ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:49:32.203 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5556ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 11:49:33.079 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6515ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:34:43.556 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:34:44.233 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:34:48.233 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0309ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:34:48.306 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      507.8µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:34:50.127 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      3.885ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:34:52.472 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1455ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:34:54.076 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6001ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:35:13.682 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.0937ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:35:13.726 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        507µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:35:15.403 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.9254ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:36:18.215 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5033ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:36:18.275 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.9µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:36:21.875 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:36:21.904 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.5279ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:37:23.731 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.7µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:37:23.789 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8505ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:37:26.891 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:37:27.044 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.5111ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:37:30.806 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.5796ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:37:32.557 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.2713ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:37:36.820 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7396ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:37:37.601 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.804ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:37:40.746 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6178ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:37:42.419 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6366ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:37:43.621 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6475ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:37:44.790 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.2447ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:37:47.426 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2029ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:37:47.468 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.162ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:37:50.117 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6226ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:40:26.367 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:40:30.155 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5677ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:41:29.753 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:43:25.359 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:43:28.126 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.2061ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:43:29.120 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7763ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:43:30.694 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.9869ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:43:30.747 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0537ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:43:32.313 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6101ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:43:34.838 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5942ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:43:36.200 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8903ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:43:49.804 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.2987ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:43:50.954 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.3859ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:44:03.291 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:44:04.341 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        541µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:44:04.397 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0475ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:44:06.067 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.2692ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:44:07.800 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6375ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:44:09.023 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6705ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:44:13.034 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0343ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:44:14.371 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.9074ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:44:16.624 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      703.6µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:44:16.664 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0355ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:44:18.602 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6256ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:45:58.499 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5521ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:45:59.091 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:45:59.874 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.2527ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:46:01.353 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5878ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:46:05.103 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      776.1µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:46:05.156 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.4µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:46:06.783 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7721ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:47:31.178 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:47:31.471 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.036ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:47:31.531 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      510.4µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:47:33.357 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6418ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:47:39.284 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5946ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:47:40.192 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.044ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:48:46.340 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:48:46.727 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8745ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:48:46.780 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        507µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:48:48.878 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0192ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:49:05.686 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:49:05.946 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0369ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:49:05.999 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      506.4µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:49:06.961 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      515.6µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:49:07.010 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      793.8µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:49:08.694 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.604ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:50:57.363 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      720.3µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:50:57.429 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.4µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:51:01.656 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:51:02.673 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:51:06.058 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0992ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:51:06.114 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      584.1µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:51:07.603 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6045ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:52:10.871 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0272ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:52:14.151 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:52:20.461 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.273ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:52:20.540 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.8µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:52:21.062 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:52:21.976 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      2.238ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:53:22.762 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:116: function "gte" not defined
+2025/02/12 12:53:22.762 [W] [beego.go:103]  template: user/member-list.html:116: function "gte" not defined
+2025/02/12 12:53:33.175 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:53:37.208 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6444ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:53:38.912 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.8µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:53:38.955 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.5µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:53:40.590 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.557ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:54:23.538 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:54:26.577 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5711ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:54:26.638 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        504µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:54:28.038 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6495ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:54:47.849 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:54:56.841 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:54:57.383 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5382ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:54:58.841 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1703ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:55:00.742 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1046ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:55:00.787 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      565.4µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:55:02.791 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.715ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:55:12.801 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1194ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:55:13.763 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1166ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:55:15.712 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.035ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:55:45.854 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5805ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:55:46.436 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:55:48.074 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6705ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:56:00.955 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:56:02.506 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1003ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:56:02.560 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      784.5µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:56:04.027 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0287ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:56:23.086 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:56:24.868 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.2371ms|   match|[44m GET     [0m /     r:/
+2025/02/12 12:57:40.482 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:57:41.979 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.034ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:57:42.029 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.8µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:57:44.053 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.159ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:58:11.493 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:58:11.993 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0373ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:58:12.046 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2559ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:58:13.845 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5646ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 12:58:15.749 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5937ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:58:16.379 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8991ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 12:58:52.908 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 12:58:53.887 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0333ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 12:58:53.940 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      507.5µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 12:58:55.627 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1722ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 13:01:06.322 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0282ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 13:01:06.397 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1404ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 13:01:06.913 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 13:01:08.301 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1681ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 13:01:53.826 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 13:01:55.331 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0282ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 13:01:55.379 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        506µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 13:01:56.914 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0738ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 13:02:58.406 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0454ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 13:02:58.458 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.7µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 13:02:58.965 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 13:03:00.210 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5733ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 13:03:26.811 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0245ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 13:03:26.865 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.5µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 13:03:28.271 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6332ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 13:03:30.190 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 13:03:56.930 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1157ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 13:03:56.994 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.8µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 13:04:01.196 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1685ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 13:04:26.792 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2052ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 13:04:26.850 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      508.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 13:04:27.350 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 13:04:28.246 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5553ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 13:04:30.144 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0378ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:04:31.338 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5644ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:04:32.223 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8234ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:04:33.507 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5525ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:04:35.244 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5501ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:04:36.372 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5664ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:06:39.313 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0232ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 13:06:39.367 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      690.7µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 13:06:40.750 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.5176ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 13:06:42.928 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5404ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:08:01.837 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5439ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:21:35.722 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5382ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:21:37.499 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6368ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:21:39.067 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6102ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:21:40.042 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.593ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:21:40.923 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5849ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:21:41.623 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7962ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:21:45.307 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5797ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:21:54.237 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0396ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 13:21:54.301 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.6µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 13:21:56.172 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.565ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 13:28:37.903 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0178ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 13:28:37.949 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      506.6µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 13:28:42.213 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8484ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 13:28:48.263 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.626ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:28:51.744 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.2511ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:30:54.849 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5592ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:30:55.770 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8069ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:30:58.178 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 13:30:58.263 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.4669ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:38:35.582 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7605ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:38:38.566 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.783ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:38:40.444 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1774ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:38:44.208 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      669.2µs| nomatch|[44m GET     [0m /inner/member-edit.html
+2025/02/12 13:38:44.208 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      669.2µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/loading-1.gif
+2025/02/12 13:38:44.211 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.3333ms|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/icon.png
+2025/02/12 13:42:35.423 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 13:42:35.926 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5654ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 13:42:35.958 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 13:42:36.111 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 13:42:37.584 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1701ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 13:43:47.898 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 13:43:50.647 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0739ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 13:44:00.337 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 13:44:00.513 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6307ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:44:03.376 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6146ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:44:03.799 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5761ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:44:04.294 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.808ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 13:52:54.727 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 13:52:57.562 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.589ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 14:04:50.402 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.9079ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 14:04:52.579 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5581ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 14:04:53.657 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.2125ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 14:04:54.353 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6195ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/12 14:10:24.840 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:10:25.967 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:10:27.320 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1241ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 14:10:27.354 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      507.3µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 14:10:29.296 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1156ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 14:10:29.320 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      508.1µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 14:11:00.585 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0281ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 14:11:00.613 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0553ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 14:11:02.940 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:11:03.259 [D] [server.go:3210]  |      127.0.0.1|[47m 302 [0m|           0s| nomatch|[44m GET     [0m /inner/home
+2025/02/12 14:11:03.291 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    27.1106ms|   match|[44m GET     [0m /     r:/
+2025/02/12 14:11:14.213 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.7µs|   match|[46m POST    [0m /     r:/
+2025/02/12 14:11:14.223 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0416ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 14:11:14.245 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5102ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 14:11:16.017 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.8901ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 14:16:05.447 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        574µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/loading-1.gif
+2025/02/12 14:16:05.447 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        574µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/icon.png
+2025/02/12 14:16:05.448 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6444ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:16:05.456 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|        517µs| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:16:05.456 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|        517µs| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:16:05.456 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:16:05.456 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:21:37.495 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:23:34.653 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:28:19.190 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:29:43.222 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:30:21.888 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:30:34.288 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    28.4473ms|   match|[44m GET     [0m /     r:/
+2025/02/12 14:31:06.250 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:31:08.429 [D] [server.go:3210]  |      127.0.0.1|[47m 302 [0m|           0s| nomatch|[44m GET     [0m /inner/home
+2025/02/12 14:31:08.462 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    26.2719ms|   match|[44m GET     [0m /     r:/
+2025/02/12 14:31:20.209 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.4µs|   match|[46m POST    [0m /     r:/
+2025/02/12 14:31:20.224 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.9µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 14:31:20.250 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      507.3µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 14:31:21.968 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.0183ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 14:31:23.725 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.2755ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:31:23.732 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:31:23.732 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:31:23.733 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:31:23.733 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:31:52.271 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:31:54.056 [D] [server.go:3210]  |      127.0.0.1|[47m 302 [0m|           0s| nomatch|[44m GET     [0m /inner/home
+2025/02/12 14:31:54.086 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    26.1735ms|   match|[44m GET     [0m /     r:/
+2025/02/12 14:32:01.560 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0233ms|   match|[46m POST    [0m /     r:/
+2025/02/12 14:32:01.573 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.6µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 14:32:01.595 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0354ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 14:32:03.070 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1201ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 14:32:04.568 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0364ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:32:04.575 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      522.5µs| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:32:04.575 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:32:04.575 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:32:04.575 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:32:39.256 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:32:41.305 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.4µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 14:32:41.334 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0346ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 14:32:42.843 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1325ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 14:32:44.177 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0315ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:32:44.186 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:32:44.186 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:32:44.186 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:32:44.186 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:32:46.246 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|      528.6µs| nomatch|[44m GET     [0m /index.html
+2025/02/12 14:32:46.246 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|      528.6µs| nomatch|[46m POST    [0m /web_config.do
+2025/02/12 14:32:46.246 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|      528.6µs| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/02/12 14:32:46.246 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|      528.6µs| nomatch|[44m GET     [0m //login.asp
+2025/02/12 14:32:46.246 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|      528.6µs| nomatch|[44m GET     [0m /web/index.html
+2025/02/12 14:32:46.246 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/02/12 14:32:46.272 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    26.1508ms|   match|[44m GET     [0m /     r:/
+2025/02/12 14:33:05.762 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:33:07.890 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/02/12 14:33:16.680 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/02/12 14:33:20.648 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/02/12 14:33:21.263 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/02/12 14:33:23.266 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/02/12 14:33:25.256 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/02/12 14:33:25.901 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/02/12 14:33:26.306 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/02/12 14:33:28.989 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/02/12 14:33:30.793 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/02/12 14:33:34.454 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/02/12 14:34:27.343 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:34:28.561 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2686ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:34:28.570 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:34:28.571 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:34:28.572 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:34:28.572 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:34:34.650 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1674ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 14:34:34.673 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.3µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 14:34:36.265 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.0976ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 14:34:37.618 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      530.2µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:34:37.626 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:34:37.626 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:34:37.626 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      540.7µs| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:34:37.626 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      540.7µs| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:36:56.699 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    28.6353ms|   match|[44m GET     [0m /     r:/
+2025/02/12 14:37:41.676 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:37:44.521 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0394ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:37:44.528 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:37:44.528 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:37:44.530 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:37:44.530 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:38:05.899 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:38:06.930 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6141ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:38:06.940 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      538.6µs| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:38:06.940 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:38:06.940 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:38:06.940 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:38:36.986 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/02/12 14:38:36.986 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/02/12 14:38:37.196 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/02/12 14:38:37.196 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/02/12 14:38:37.196 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/02/12 14:38:37.225 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    29.1217ms|   match|[44m GET     [0m /     r:/
+2025/02/12 14:38:37.347 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/02/12 14:38:37.347 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/02/12 14:38:37.600 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/02/12 14:38:37.757 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/02/12 14:38:38.031 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/02/12 14:38:38.211 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/02/12 14:38:38.211 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/02/12 14:38:38.211 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/02/12 14:38:38.495 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      644.9µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 14:38:38.527 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        586µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 14:38:38.606 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/02/12 14:38:38.805 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/02/12 14:38:39.063 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:38:39.408 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/02/12 14:38:39.514 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/02/12 14:38:39.924 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      3.056ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 14:38:41.207 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      692.7µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:38:41.216 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:38:41.216 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:38:41.217 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:38:41.217 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:41:18.183 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:41:20.106 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0349ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:41:20.138 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:41:20.139 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:41:20.139 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:41:20.139 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:41:43.450 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:41:44.728 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0712ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:41:44.735 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:41:44.735 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:41:44.735 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:41:44.735 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:42:15.210 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    24.0995ms|   match|[44m GET     [0m /     r:/
+2025/02/12 14:43:48.164 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/02/12 14:43:48.223 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/02/12 14:43:48.223 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/02/12 14:43:48.223 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/02/12 14:43:48.223 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/02/12 14:43:48.223 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/02/12 14:43:48.223 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/02/12 14:43:48.223 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/02/12 14:43:48.223 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/02/12 14:43:48.250 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    26.4612ms|   match|[44m GET     [0m /     r:/
+2025/02/12 14:43:48.380 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/02/12 14:43:48.411 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/02/12 14:43:48.425 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/02/12 14:43:48.425 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/02/12 14:43:48.425 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/02/12 14:43:48.612 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/02/12 14:43:48.613 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/02/12 14:43:48.613 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/02/12 14:43:48.929 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:43:49.612 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:43:58.522 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:44:03.644 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0462ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:44:03.650 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:44:03.650 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:44:03.651 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:44:03.651 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:48:14.168 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:48:17.343 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2653ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:48:17.373 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:48:17.374 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:48:17.374 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:48:17.374 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:49:00.962 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:49:02.315 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.3653ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:49:02.323 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:49:02.324 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      520.6µs| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:49:02.324 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:49:02.324 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:49:27.883 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:50:08.982 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:50:11.052 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.331ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:50:11.061 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:50:11.061 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:50:11.062 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      526.6µs| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:50:11.062 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      526.6µs| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:51:25.545 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:51:26.493 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0324ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:51:26.500 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:51:26.500 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:51:26.501 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:51:26.501 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:52:13.780 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:52:14.298 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|       1.34ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:52:14.306 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      528.5µs| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:52:14.308 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:52:14.308 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:52:14.308 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:52:37.794 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:52:39.210 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      551.4µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:52:39.217 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:52:39.217 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:52:39.217 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:52:39.217 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:54:38.677 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:54:39.359 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:54:39.859 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      669.7µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:54:39.867 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      535.4µs| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:54:39.868 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:54:39.870 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      525.2µs| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:54:39.870 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|      525.2µs| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 14:58:06.923 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:58:50.177 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 14:58:53.874 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0285ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 14:58:53.881 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 14:58:53.882 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 14:58:53.882 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 14:58:53.882 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 15:00:39.523 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 15:02:27.565 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 15:02:28.158 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.8µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 15:02:28.165 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 15:02:28.165 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 15:02:28.166 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 15:02:28.166 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js
+2025/02/12 15:04:56.784 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/12 15:04:57.696 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0361ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/12 15:04:57.734 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.9µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/12 15:04:59.435 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.0955ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/12 15:05:00.861 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0377ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/12 15:05:00.870 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/font.css
+2025/02/12 15:05:00.870 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/css/xadmin.css
+2025/02/12 15:05:00.870 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/lib/layui/layui.js
+2025/02/12 15:05:00.870 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /inner/js/xadmin.js

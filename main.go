@@ -20,6 +20,6 @@ func main() {
 	beego.BConfig.WebConfig.Session.SessionOn = true
 
 	// 登录请求拦截
-	//beego.InsertFilter("/inner/*", beego.BeforeRouter, utils.LoginFilter)
+	// beego.InsertFilter("/inner/*", beego.BeforeRouter, utils.LoginFilter)
 	beego.Run(":8089")
 }

@@ -18,3 +18,10 @@
 2025/02/08 16:39:11.544 [E] [server.go:3210]  template: user/member-list.html:82:26: executing "user/member-list.html" at <$user.CreateTime>: CreateTime has arguments but cannot be invoked as function
 2025/02/08 16:39:28.978 [E] [server.go:3210]  template: user/member-list.html:82:26: executing "user/member-list.html" at <$user.CreateTime>: CreateTime has arguments but cannot be invoked as function
 2025/02/08 16:41:49.790 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:184: unexpected EOF
+2025/02/12 10:00:31.916 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:118: missing value for command
+2025/02/12 11:37:53.086 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:119: unexpected ">" in operand
+2025/02/12 11:38:22.675 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:119: function "ExecUserController" not defined
+2025/02/12 11:44:15.430 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:121: bad number syntax: "-l"
+2025/02/12 11:46:14.658 [E] [controller.go:304]  parse template err: user/member-list.html template: user/member-list.html:121: function "lte" not defined
+2025/02/12 11:46:15.265 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:121: function "lte" not defined
+2025/02/12 12:53:22.762 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:116: function "gte" not defined

@@ -7,6 +7,11 @@ type HomeController struct {
 }
 
 func (h *HomeController) Get() {
+	pageId, err := h.GetInt("pageId")
+	if err != nil {
+		pageId = 0
+	}
+	h.Data["pageId"] = pageId
 	h.TplName = "index.html"
 }
 
