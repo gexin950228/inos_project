@@ -3151,3 +3151,21 @@
 2025/02/19 17:15:36.172 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     8.9327ms|   match|[46m POST    [0m /inner/user-add   r:/inner/user-add
 2025/02/19 17:15:50.217 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.3519ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
 2025/02/19 17:15:51.294 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.2142ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 17:23:49.208 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 17:25:29.156 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 17:27:12.525 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 17:27:19.215 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 17:28:06.511 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 17:28:07.515 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0469ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 17:28:07.559 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.8µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 17:28:11.004 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     4.2718ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 17:28:13.230 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|       1.03ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 17:28:59.349 [E] [value.go:581]  查询数据库中名字为:admin，邮箱为admin@chnenery@ceic.com的用户失败，错误信息为: <QuerySeter> no row found
+2025/02/19 17:28:59.356 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     7.8549ms|   match|[46m POST    [0m /inner/user-add   r:/inner/user-add
+2025/02/19 17:33:06.965 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 17:33:08.903 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     4.0358ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 17:33:08.956 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6601ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 17:33:11.854 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.2963ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 17:33:13.977 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      789.4µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 17:33:58.233 [E] [value.go:581]  查询数据库中名字为:admin2，邮箱为admin2@chnenergy.com的用户失败，错误信息为: <QuerySeter> no row found
+2025/02/19 17:33:58.240 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     6.9477ms|   match|[46m POST    [0m /inner/user-add   r:/inner/user-add

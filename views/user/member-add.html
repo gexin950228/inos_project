@@ -168,7 +168,6 @@
           //监听提交
           form.on('submit(add)', function(data){
             // console.log(data);
-              console.log("haha")
             let username = document.getElementById("username").value;
             let email = document.getElementById("email").value;
             let gender = $("input[name='gender']:checked").val();
@@ -202,10 +201,10 @@
                     "nick_name": nick_name,
                 },
                 success: function (data) {
-                    console.log(data);
+                    inos_alert.alertSuccessToast(data["msg"]);
                 },
                 fail: function (data) {
-                    console.log(data);
+                    inos_alert.alertError(data["msg"]);
                 }
 
             })
@@ -217,8 +216,6 @@
             });
             return false;
           });
-          
-          
         });
     </script>
     <script>var _hmt = _hmt || []; (function() {

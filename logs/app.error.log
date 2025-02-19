@@ -53,3 +53,5 @@
 2025/02/19 16:56:13.920 [E] [value.go:581]  查询数据库中名字为:小太阳，邮箱为861439031@qq.com的用户失败，错误信息为: <QuerySeter> no row found
 2025/02/19 17:14:18.761 [E] [value.go:581]  查询数据库中名字为:小太阳，邮箱为861439031@qq.com的用户失败，错误信息为: <QuerySeter> no row found
 2025/02/19 17:15:36.164 [E] [value.go:581]  查询数据库中名字为:小太阳，邮箱为861439031@qq.com的用户失败，错误信息为: <QuerySeter> no row found
+2025/02/19 17:28:59.349 [E] [value.go:581]  查询数据库中名字为:admin，邮箱为admin@chnenery@ceic.com的用户失败，错误信息为: <QuerySeter> no row found
+2025/02/19 17:33:58.233 [E] [value.go:581]  查询数据库中名字为:admin2，邮箱为admin2@chnenergy.com的用户失败，错误信息为: <QuerySeter> no row found
