@@ -3120,3 +3120,34 @@
 2025/02/19 16:57:59.907 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5957ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
 2025/02/19 16:58:00.515 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6672ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
 2025/02/19 16:58:01.024 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5595ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 17:02:37.135 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    28.1806ms|   match|[44m GET     [0m /     r:/
+2025/02/19 17:02:37.151 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.9µs|   match|[44m GET     [0m /static/css/sweetalert.css
+2025/02/19 17:02:37.185 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.3053ms|   match|[44m GET     [0m /static/js/sweetalert.min.js
+2025/02/19 17:02:37.191 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0562ms|   match|[44m GET     [0m /static/js/ions_alert.js
+2025/02/19 17:02:37.767 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.027ms|   match|[44m GET     [0m /static/images/bg.png
+2025/02/19 17:02:37.768 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5459ms|   match|[44m GET     [0m /static/images/aiwrap.png
+2025/02/19 17:02:37.846 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5018ms|   match|[44m GET     [0m /static/img/zlkt.ico
+2025/02/19 17:02:48.404 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      506.8µs|   match|[46m POST    [0m /     r:/
+2025/02/19 17:02:48.430 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2374ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 17:02:48.452 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0662ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 17:02:50.454 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.2345ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 17:02:52.277 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5541ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 17:02:52.971 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.888ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 17:02:53.663 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.576ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 17:02:54.301 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5809ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 17:02:57.177 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7077ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 17:02:58.251 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0316ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 17:06:27.989 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0453ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 17:11:48.768 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 17:12:21.209 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 17:12:22.511 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7044ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 17:12:56.783 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5434ms|   match|[46m POST    [0m /inner/user-add   r:/inner/user-add
+2025/02/19 17:13:45.119 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7496ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 17:14:18.761 [E] [value.go:581]  查询数据库中名字为:小太阳，邮箱为861439031@qq.com的用户失败，错误信息为: <QuerySeter> no row found
+2025/02/19 17:14:18.761 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      508.3µs|   match|[46m POST    [0m /inner/user-add   r:/inner/user-add
+2025/02/19 17:14:57.403 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 17:14:57.544 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.4225ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 17:15:36.164 [E] [value.go:581]  查询数据库中名字为:小太阳，邮箱为861439031@qq.com的用户失败，错误信息为: <QuerySeter> no row found
+2025/02/19 17:15:36.172 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     8.9327ms|   match|[46m POST    [0m /inner/user-add   r:/inner/user-add
+2025/02/19 17:15:50.217 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.3519ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 17:15:51.294 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.2142ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId

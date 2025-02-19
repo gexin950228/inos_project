@@ -6,6 +6,7 @@ import (
 	"github.com/astaxie/beego/logs"
 	"github.com/astaxie/beego/orm"
 	"inos_project/models/user"
+	"inos_project/utils"
 	"math"
 )
 
@@ -91,6 +92,8 @@ func (u *ExecUserController) ExecAddUser() {
 		repMsg["code"] = "0"
 		repMsg["msg"] = fmt.Sprintf("查询数据库中名字为:%s，邮箱为%s的用户已存在", insertUser.UserName, insertUser.Email)
 	} else {
+		md5Pass := utils.EncryptPassword(insertUser.Password)
+		insertUser.Password = md5Pass
 		insertId, err := o.Insert(&insertUser)
 		if err != nil {
 			logs.Error(err.Error())
