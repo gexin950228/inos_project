@@ -70,5 +70,40 @@ func (u *ExecUserController) EditUser() {
 }
 
 func (u *ExecUserController) ExecAddUser() {
+	var insertUser user.User
+	err := u.ParseForm(&insertUser)
+	if err != nil {
+		logs.Error(fmt.Sprintf("注册用户参数绑定失败，错误信息:%s", err.Error()))
+	} else {
+		fmt.Printf("user:%#v\n", insertUser)
+	}
+
+	// 初始化相应结构体
+	repMsg := make(map[string]string)
+
+	o := orm.NewOrm()
+	qs := o.QueryTable("user")
+	err = qs.Filter("username", insertUser.UserName).One(&insertUser)
+	if err != nil {
+		logs.Error(fmt.Sprintf("查询数据库中名字为:%s，邮箱为%s的用户失败，错误信息为: %s", insertUser.UserName, insertUser.Email, err.Error()))
+	}
+	if insertUser.Id > 0 {
+		repMsg["code"] = "0"
+		repMsg["msg"] = fmt.Sprintf("查询数据库中名字为:%s，邮箱为%s的用户已存在", insertUser.UserName, insertUser.Email)
+	} else {
+		insertId, err := o.Insert(&insertUser)
+		if err != nil {
+			logs.Error(err.Error())
+			repMsg["code"] = "1"
+			repMsg["msg"] = fmt.Sprintf("数据库插入失败，错误信息:%s", err.Error())
+		} else {
+			repMsg["code"] = "0"
+			repMsg["msg"] = fmt.Sprintf("用户插入成功，用户id是: %v", insertId)
+		}
+	}
+	u.ServeJSON()
+}
+
+func (u *ExecUserController) ExecModifyUser() {
 	u.ServeJSON()
 }

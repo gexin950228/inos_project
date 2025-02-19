@@ -25,3 +25,29 @@
 2025/02/12 11:46:14.658 [E] [controller.go:304]  parse template err: user/member-list.html template: user/member-list.html:121: function "lte" not defined
 2025/02/12 11:46:15.265 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:121: function "lte" not defined
 2025/02/12 12:53:22.762 [E] [template.go:176]  parse template err: user/member-list.html template: user/member-list.html:116: function "gte" not defined
+2025/02/19 14:29:06.984 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:29:37.025 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:29:42.849 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:30:17.080 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:30:23.778 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:34:11.901 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:35:09.921 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:35:33.818 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:35:38.351 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:36:01.423 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:38:16.578 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:38:55.079 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:40:42.666 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:41:07.763 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:41:38.294 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:43:01.810 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:43:25.591 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:45:05.107 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 16:23:21.029 [E] [template.go:176]  parse template err: user/member-add.html template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:23:41.941 [E] [template.go:176]  parse template err: user/member-add.html template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:24:07.237 [E] [template.go:176]  parse template err: user/member-add.html template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:24:36.295 [E] [template.go:176]  parse template err: user/member-add.html template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:30:08.833 [E] [template.go:176]  parse template err: user/member-add.html template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:30:22.476 [E] [template.go:176]  parse template err: user/member-add.html template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:30:36.403 [E] [template.go:176]  parse template err: user/member-add.html template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:56:13.920 [E] [value.go:581]  查询数据库中名字为:小太阳，邮箱为861439031@qq.com的用户失败，错误信息为: <QuerySeter> no row found

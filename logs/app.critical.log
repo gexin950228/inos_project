@@ -64,3 +64,12 @@
 2025/02/08 13:51:23.081 [C] [panic.go:785]  D:/go/src/net/http/server.go:3210
 2025/02/08 13:51:23.081 [C] [panic.go:785]  D:/go/src/net/http/server.go:2092
 2025/02/08 13:51:23.081 [C] [panic.go:785]  D:/go/src/runtime/asm_amd64.s:1700
+2025/02/18 09:09:15.930 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:15.930 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:16.648 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:17.656 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:18.671 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:19.681 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:20.699 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:21.703 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:22.698 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.

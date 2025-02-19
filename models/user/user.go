@@ -18,7 +18,7 @@ type User struct {
 	CreateTime time.Time `orm:"type(datetime);auto_now;column(create_time);null"`
 	IsDeleted  int       `orm:"type(int);column(is_deleted);description(账号是否可以)" json:"is_deleted"`
 	Email      string    `orm:"column(email);size(100);description(邮箱)" json:"email" form:"email"`
-	IsActice   int       `orm:"column(is_active);type(int)" form:"is_ctive" json:"is_ctive"`
+	NickName   string    `orm:"column(nick_name);size(50);description(昵称)" json:"nick_name" form:"nick_name"`
 }
 
 func (u *User) TableName() string {

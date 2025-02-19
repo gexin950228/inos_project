@@ -16,6 +16,7 @@ func init() {
 	beego.Router("/inner/home/", &controllers.HomeController{})
 	beego.Router("/inner/welcome", &controllers.HomeController{}, "get:Welcome")
 	beego.Router("/inner/user-list/?:pageId", &user.ExecUserController{})
-	beego.Router("/inner/user-add", &user.ExecUserController{}, "*:AddUser")
-	beego.Router("/inner/modify-add", &user.ExecUserController{}, "post:ExecAddUser")
+	beego.Router("/inner/user-add", &user.ExecUserController{}, "get:AddUser")
+	beego.Router("/inner/user-add", &user.ExecUserController{}, "post:ExecAddUser")
+	beego.Router("/inner/modify-add", &user.ExecUserController{}, "post:ExecModifyUser")
 }

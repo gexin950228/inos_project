@@ -2701,3 +2701,422 @@
 2025/02/14 16:59:04.809 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
 2025/02/14 17:17:17.512 [I] [asm_amd64.s:1700]  http server Running on http://:8089
 2025/02/14 17:24:00.109 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/17 11:49:57.317 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/17 11:50:01.994 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.1569ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/17 11:50:02.009 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.0404ms|   match|[44m GET     [0m /static/css/xadmin.css
+2025/02/17 11:50:02.010 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.1272ms|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/02/17 11:50:02.011 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     2.1643ms|   match|[44m GET     [0m /static/js/jquery.min.js
+2025/02/17 11:50:02.012 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      3.212ms|   match|[44m GET     [0m /static/js/xadmin.js
+2025/02/17 11:50:02.012 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     3.7175ms|   match|[44m GET     [0m /static/css/font.css
+2025/02/17 11:50:02.017 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2734ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/02/17 11:50:02.030 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.5µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/17 11:50:02.048 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.0376ms|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/02/17 11:50:02.054 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.2637ms|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2025/02/17 11:50:02.068 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.1341ms|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/02/17 11:50:02.095 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      959.8µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/02/17 11:50:02.097 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      505.2µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/02/17 11:50:02.142 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      619.8µs|   match|[44m GET     [0m /static/lib/layui/font/iconfont.woff
+2025/02/17 11:50:02.198 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      1.044ms|   match|[44m GET     [0m /static/images/zlkt.ico
+2025/02/17 11:50:02.204 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2025/02/17 11:50:03.838 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     8.3325ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/17 11:50:03.854 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      505.5µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/laydate.js
+2025/02/17 11:50:03.875 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|        505µs|   match|[44m GET     [0m /static/lib/layui/css/modules/laydate/default/laydate.css
+2025/02/17 11:50:05.224 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      508.3µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/loading-1.gif
+2025/02/17 11:50:05.225 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0454ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/17 11:50:05.225 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.5639ms|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/icon.png
+2025/02/18 09:09:15.928 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/18 09:09:15.929 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/18 09:09:15.929 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/18 09:09:15.930 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:15.930 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:16.644 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/18 09:09:16.648 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:17.654 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/18 09:09:17.656 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:18.669 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/18 09:09:18.671 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:19.680 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/18 09:09:19.681 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:20.690 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/18 09:09:20.699 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:21.700 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/18 09:09:21.703 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:22.697 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/18 09:09:22.698 [C] [asm_amd64.s:1700]  ListenAndServe:  listen tcp :8089: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2025/02/18 09:09:25.905 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.025ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/18 09:09:25.947 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|       1.03ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/02/18 09:09:25.964 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.3µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/18 09:09:29.751 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.5659ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/18 09:09:30.856 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.025ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 09:22:14.850 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        504µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/18 09:22:14.894 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1893ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/18 09:22:14.979 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2025/02/18 09:22:21.209 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.3608ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/18 09:22:22.670 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0536ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 09:22:46.850 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0382ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 10:10:02.436 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0568ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/18 10:10:02.470 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      508.4µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/18 10:10:04.068 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.3164ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/18 10:10:05.048 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1344ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 10:12:04.405 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.4368ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 10:13:45.110 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2761ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 10:24:26.633 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6903ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/18 10:24:26.694 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0294ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/18 10:24:27.511 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.3477ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/18 10:24:27.559 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      518.9µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/18 10:24:29.688 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.7555ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/18 10:24:30.815 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.8µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 10:25:11.254 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5749ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 10:28:02.283 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.2746ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 10:28:03.677 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5704ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/18 10:28:03.725 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.5µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/18 10:28:05.067 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.943ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/18 10:28:06.162 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0405ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 10:28:46.654 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0515ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 10:29:58.049 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0281ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 10:30:11.873 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8809ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/18 10:30:11.915 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.5µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/18 10:30:12.616 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0359ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/18 10:30:12.656 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      503.4µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/18 10:30:13.879 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      2.246ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/18 10:30:14.935 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1835ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 10:35:04.945 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.023ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 10:35:50.358 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0488ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/18 10:35:50.417 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.084ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/18 10:35:51.010 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5673ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/18 10:35:51.055 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0299ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/18 10:35:52.165 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.3507ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/18 10:35:53.472 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6478ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 10:36:47.182 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0479ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 10:37:44.535 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1608ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/18 10:37:44.587 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.3µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/18 10:37:44.938 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      506.7µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/18 10:37:44.976 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.9µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/18 10:37:46.283 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1085ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/18 10:37:47.405 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0275ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 13:51:34.082 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0507ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/18 13:51:34.133 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2417ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/18 13:51:38.356 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      3.765ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/18 13:51:41.996 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      508.5µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 13:57:27.749 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0378ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/18 13:57:27.795 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        507µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/18 13:57:31.609 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.8041ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/18 13:57:33.621 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      510.7µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 13:58:06.727 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.8µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/18 14:37:32.791 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    33.7849ms|   match|[44m GET     [0m /     r:/
+2025/02/18 14:39:17.645 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/02/18 14:39:17.645 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/02/18 14:39:17.645 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/02/18 14:39:17.646 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/02/18 14:39:17.681 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    35.8828ms|   match|[44m GET     [0m /     r:/
+2025/02/18 14:39:17.853 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|        633µs| nomatch|[44m GET     [0m /login.html
+2025/02/18 14:39:18.081 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/02/18 14:39:18.108 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/02/18 14:39:18.108 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/02/18 14:39:18.474 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/02/18 14:39:18.474 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/02/18 14:39:18.702 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/02/18 14:39:19.088 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/02/18 14:39:19.536 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/02/18 14:39:20.384 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/02/18 14:39:20.799 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/02/18 14:39:21.727 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/02/18 14:39:21.953 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/02/18 16:56:35.702 [D] [server.go:3210]  | 10.161.252.112|[42m 200 [0m|    55.1067ms|   match|[44m GET     [0m /     r:/
+2025/02/18 16:59:53.914 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/02/18 16:59:53.966 [D] [server.go:3210]  | 10.161.252.112|[42m 200 [0m|    53.0084ms|   match|[44m GET     [0m /     r:/
+2025/02/18 16:59:54.135 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      600.4µs| nomatch|[44m GET     [0m /index_ch.html
+2025/02/18 16:59:54.135 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      600.4µs| nomatch|[46m POST    [0m /favicon.ico
+2025/02/18 16:59:54.348 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/02/18 16:59:54.348 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/02/18 16:59:54.399 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/02/18 16:59:54.553 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/02/18 16:59:54.553 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/02/18 16:59:54.553 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/02/18 16:59:54.654 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/02/18 16:59:54.757 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/02/18 16:59:54.861 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/02/18 16:59:54.970 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/02/18 16:59:54.970 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/02/18 16:59:55.071 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/02/18 16:59:55.373 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/02/18 16:59:55.574 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/02/19 08:45:09.371 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 08:45:10.506 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:28:16.850 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:28:17.531 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:28:23.807 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:28:27.557 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:28:48.334 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:29:01.522 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        910µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:29:01.533 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      579.5µs|   match|[44m GET     [0m /static/css/xadmin.css
+2025/02/19 14:29:01.534 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      890.9µs|   match|[44m GET     [0m /static/css/font.css
+2025/02/19 14:29:01.563 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      505.5µs|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/02/19 14:29:01.564 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.0597ms|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/02/19 14:29:01.565 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.5816ms|   match|[44m GET     [0m /static/js/xadmin.js
+2025/02/19 14:29:01.580 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.6µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:29:01.600 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      550.3µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/02/19 14:29:01.609 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.0556ms|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2025/02/19 14:29:01.615 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      525.8µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/02/19 14:29:01.626 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      507.6µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/02/19 14:29:01.900 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      505.1µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/02/19 14:29:01.911 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.1858ms|   match|[44m GET     [0m /static/lib/layui/font/iconfont.woff
+2025/02/19 14:29:02.621 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2234ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:29:02.663 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.3µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:29:05.688 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|    10.2553ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:29:05.706 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      509.1µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/laydate.js
+2025/02/19 14:29:05.728 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|     1.0309ms|   match|[44m GET     [0m /static/lib/layui/css/modules/laydate/default/laydate.css
+2025/02/19 14:29:06.983 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      421.1µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/loading-1.gif
+2025/02/19 14:29:06.984 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:29:06.984 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:29:06.984 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        733µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:29:06.984 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|        733µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/icon.png
+2025/02/19 14:29:28.179 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      658.4µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:29:28.227 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      707.5µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:29:28.480 [D] [server.go:3210]  |      127.0.0.1|[47m 304 [0m|      506.2µs|   match|[44m GET     [0m /static/images/zlkt.ico
+2025/02/19 14:29:28.484 [D] [server.go:3210]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2025/02/19 14:29:34.721 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.9958ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:29:37.025 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:29:37.025 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:29:37.025 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.9568ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:29:42.849 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:29:42.849 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:29:42.849 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0257ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:30:13.903 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:30:17.080 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:30:17.080 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:30:17.080 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.5µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:30:20.097 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0527ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:30:20.129 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:30:22.805 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.4645ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:30:23.778 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:30:23.778 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:30:23.778 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0546ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:34:06.422 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:34:08.688 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      506.7µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:34:08.714 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      685.3µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:34:10.910 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.0041ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:34:11.901 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:34:11.901 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:34:11.901 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      532.3µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:35:05.580 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:35:07.621 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.5µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:35:07.647 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        632µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:35:08.954 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.6765ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:35:09.921 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:35:09.921 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:35:09.921 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0629ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:35:32.745 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:35:33.817 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:35:33.818 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:35:33.818 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0356ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:35:35.558 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.7µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:35:35.584 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:35:36.152 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.5µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:35:36.177 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        505µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:35:37.416 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.2046ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:35:38.351 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:35:38.351 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:35:38.351 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.4416ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:35:58.286 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0357ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:35:58.339 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5691ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:35:58.610 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0317ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:35:58.656 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7494ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:35:59.189 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0529ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:35:59.238 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0429ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:36:00.616 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5766ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:36:01.423 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:36:01.423 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:36:01.423 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      792.7µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:38:13.682 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0631ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:38:13.703 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/font.css
+2025/02/19 14:38:13.704 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      526.2µs|   match|[44m GET     [0m /static/css/xadmin.css
+2025/02/19 14:38:13.706 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|       2.71ms|   match|[44m GET     [0m /static/js/jquery.min.js
+2025/02/19 14:38:13.706 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1645ms|   match|[44m GET     [0m /static/js/xadmin.js
+2025/02/19 14:38:13.706 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1645ms|   match|[44m GET     [0m /static/lib/layui/layui.js
+2025/02/19 14:38:13.706 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      572.9µs|   match|[44m GET     [0m /static/lib/layui/css/layui.css
+2025/02/19 14:38:13.719 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0547ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:38:13.752 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/lay/modules/form.js
+2025/02/19 14:38:13.753 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2025/02/19 14:38:13.756 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      531.8µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/layer.js
+2025/02/19 14:38:13.758 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/layer.css
+2025/02/19 14:38:13.762 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      537.9µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/element.js
+2025/02/19 14:38:13.771 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/font/iconfont.woff
+2025/02/19 14:38:13.821 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/zlkt.ico
+2025/02/19 14:38:15.487 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.7601ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:38:15.498 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      523.4µs|   match|[44m GET     [0m /static/lib/layui/lay/modules/laydate.js
+2025/02/19 14:38:15.513 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/laydate/default/laydate.css
+2025/02/19 14:38:16.577 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      507.7µs|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/loading-1.gif
+2025/02/19 14:38:16.577 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/lib/layui/css/modules/layer/default/icon.png
+2025/02/19 14:38:16.578 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:38:16.578 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:38:16.578 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0355ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:38:20.610 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.3915ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:38:21.873 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0594ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:38:52.114 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:38:55.079 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:38:55.079 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:38:55.079 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5485ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:40:27.553 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:40:37.585 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:40:38.907 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0426ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:40:38.961 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:40:41.670 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.2506ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:40:42.666 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:40:42.666 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:40:42.666 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0303ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:40:56.914 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.058ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:40:56.962 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      610.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:41:00.178 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    39.0796ms|   match|[44m GET     [0m /     r:/
+2025/02/19 14:41:04.757 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.0425ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:41:07.763 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:41:07.763 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:41:07.763 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.041ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:41:31.500 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:41:33.096 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.8014ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:41:33.148 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      522.9µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:41:36.379 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0173ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:41:38.294 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:41:38.294 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:41:38.294 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.4µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:42:55.286 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:42:56.529 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      783.5µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:42:56.582 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        506µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:42:59.769 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.4056ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:43:01.809 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:43:01.810 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:43:01.810 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.1947ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:43:13.034 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:43:15.245 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      508.9µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:43:15.303 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        505µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:43:15.801 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0227ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:43:15.854 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      639.5µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:43:18.926 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.9749ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:43:25.591 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:43:25.591 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:43:25.591 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.6492ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:43:26.373 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|      506.9µs| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/02/19 14:43:26.373 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|      506.9µs| nomatch|[44m GET     [0m /rps/
+2025/02/19 14:43:26.525 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/02/19 14:43:26.575 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/02/19 14:43:26.777 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/02/19 14:43:26.793 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/02/19 14:43:26.980 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/02/19 14:43:26.980 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/02/19 14:43:27.010 [D] [server.go:3210]  | 10.161.252.114|[42m 200 [0m|    30.6929ms|   match|[44m GET     [0m /     r:/
+2025/02/19 14:43:28.135 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /script/inc.js
+2025/02/19 14:43:28.336 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/02/19 14:43:28.336 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/02/19 14:43:30.582 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/02/19 14:43:30.882 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/02/19 14:43:31.085 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/02/19 14:43:33.345 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/02/19 14:43:34.846 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/02/19 14:43:36.542 [D] [server.go:3210]  | 10.161.252.114|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/02/19 14:44:07.333 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.8511ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 14:44:09.265 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.2128ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 14:44:09.975 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1412ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 14:44:10.804 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1443ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 14:44:12.701 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|        2.4ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 14:44:55.994 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:45:01.420 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.4084ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:45:01.447 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      507.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:45:04.136 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.3619ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:45:05.107 [D] [controller.go:306]  template Execute err: html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:45:05.107 [E] [server.go:3210]  html/template:user/member-add.html: "\"" in attribute name: "\">\n                  增加\n        "
+2025/02/19 14:45:05.107 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0318ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:48:25.430 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:48:27.878 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0512ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:48:27.894 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      533.5µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:48:29.852 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.4929ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:48:30.807 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0319ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:49:08.363 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:49:08.721 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0585ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:49:08.738 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      757.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:49:11.126 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      2.365ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:49:12.053 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.051ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:50:13.140 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5651ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:50:13.743 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:54:15.160 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:54:34.958 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:55:44.788 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.5µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:56:39.122 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.071ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:57:01.753 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:57:10.777 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:57:11.541 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0242ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 14:57:11.599 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.7µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 14:57:15.577 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.3593ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 14:57:17.649 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0452ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 14:58:26.647 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:59:07.260 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:59:16.275 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 14:59:32.803 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 15:27:49.455 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 15:47:18.977 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 15:47:19.659 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 16:22:24.571 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 16:23:21.029 [E] [template.go:176]  parse template err: user/member-add.html template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:23:21.029 [W] [beego.go:103]  template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:23:41.941 [E] [template.go:176]  parse template err: user/member-add.html template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:23:41.941 [W] [beego.go:103]  template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:24:07.237 [E] [template.go:176]  parse template err: user/member-add.html template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:24:07.238 [W] [beego.go:103]  template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:24:36.295 [E] [template.go:176]  parse template err: user/member-add.html template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:24:36.295 [W] [beego.go:103]  template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:30:08.833 [E] [template.go:176]  parse template err: user/member-add.html template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:30:08.833 [W] [beego.go:103]  template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:30:22.476 [E] [template.go:176]  parse template err: user/member-add.html template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:30:22.476 [W] [beego.go:103]  template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:30:36.403 [E] [template.go:176]  parse template err: user/member-add.html template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:30:36.403 [W] [beego.go:103]  template: user/member-add.html:179: function "url_for" not defined
+2025/02/19 16:31:18.800 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 16:31:25.923 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0428ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 16:31:25.997 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0312ms|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 16:31:29.865 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      5.195ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 16:31:35.399 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      1.049ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 16:32:17.133 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /inner/user-add   r:/inner/user-add
+2025/02/19 16:34:00.320 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 16:34:05.098 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0481ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 16:34:05.144 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      760.2µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 16:34:07.111 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.6433ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 16:34:08.020 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.0351ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 16:37:38.812 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /inner/user-add   r:/inner/user-add
+2025/02/19 16:38:59.628 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 16:39:02.377 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      802.9µs|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 16:39:02.418 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      506.8µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 16:39:03.992 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     2.1592ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 16:39:05.143 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      505.8µs|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 16:39:39.089 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /inner/user-add   r:/inner/user-add
+2025/02/19 16:51:40.534 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 16:51:41.655 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 16:52:42.360 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.3113ms|   match|[44m GET     [0m /inner/home   r:/inner/home/
+2025/02/19 16:52:42.393 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      504.5µs|   match|[44m GET     [0m /inner/welcome   r:/inner/welcome
+2025/02/19 16:52:44.090 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.0689ms|   match|[44m GET     [0m /inner/user-list/   r:/inner/user-list/?:pageId
+2025/02/19 16:52:45.777 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.2871ms|   match|[44m GET     [0m /inner/user-add   r:/inner/user-add
+2025/02/19 16:55:06.401 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 16:55:23.130 [D] [server.go:3210]  | 10.161.252.112|[42m 200 [0m|    29.9486ms|   match|[44m GET     [0m /     r:/
+2025/02/19 16:56:13.920 [E] [value.go:581]  查询数据库中名字为:小太阳，邮箱为861439031@qq.com的用户失败，错误信息为: <QuerySeter> no row found
+2025/02/19 16:56:13.925 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|      6.847ms|   match|[46m POST    [0m /inner/user-add   r:/inner/user-add
+2025/02/19 16:57:04.960 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /web_config.do
+2025/02/19 16:57:04.960 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m //login.asp
+2025/02/19 16:57:04.960 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /router_password_mobile.asp
+2025/02/19 16:57:04.993 [D] [server.go:3210]  | 10.161.252.112|[42m 200 [0m|    32.6864ms|   match|[44m GET     [0m /     r:/
+2025/02/19 16:57:05.061 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /lang/CHINESE_S.js
+2025/02/19 16:57:05.112 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index.html
+2025/02/19 16:57:05.167 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      508.8µs| nomatch|[44m GET     [0m /cgi-bin/luci
+2025/02/19 16:57:05.167 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      508.8µs| nomatch|[44m GET     [0m /script/inc.js
+2025/02/19 16:57:05.167 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|      508.8µs| nomatch|[44m GET     [0m /DVRWeb.asp
+2025/02/19 16:57:05.373 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /web/index.html
+2025/02/19 16:57:05.373 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[46m POST    [0m /favicon.ico
+2025/02/19 16:57:05.476 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /func/web_main/validate
+2025/02/19 16:57:05.578 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /cap.js
+2025/02/19 16:57:05.579 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.asp
+2025/02/19 16:57:05.785 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /Page/Login/
+2025/02/19 16:57:05.785 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /login.html
+2025/02/19 16:57:05.884 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /rps/
+2025/02/19 16:57:06.790 [D] [server.go:3210]  | 10.161.252.112|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /index_ch.html
+2025/02/19 16:57:51.807 [I] [asm_amd64.s:1700]  http server Running on http://:8089
+2025/02/19 16:57:59.172 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     3.4855ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 16:57:59.907 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5957ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 16:58:00.515 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.6672ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
+2025/02/19 16:58:01.024 [D] [server.go:3210]  |      127.0.0.1|[42m 200 [0m|     1.5595ms|   match|[44m GET     [0m /inner/user-list   r:/inner/user-list/?:pageId
